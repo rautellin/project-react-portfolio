@@ -1,17 +1,30 @@
-import React from 'react'
-import '../css/header.css'
-import { Title } from './Title'
-
+import React from "react"
+import { Title } from "./Title"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import "../css/header.css"
 
 export const Header = () => {
 
   return (
     <>
       <header>
-        <div>
+        <div className="header-container">
+          <a className="logos" target="_blank" rel="noopener noreferrer" role="button" aria-pressed="false" tabindex="0" href="https://github.com/rautellin">
+            <FontAwesomeIcon icon={['fab', 'github-alt']} />
+          </a>
+          <a className="logos" target="_blank" rel="noopener noreferrer" role="button" aria-pressed="false" tabindex="0" href="https://www.linkedin.com/in/nathalierautell/">
+            <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
+          </a>
+          <a className="logos" target="_blank" rel="noopener noreferrer" role="button" aria-pressed="false" tabindex="0"
+            href="https://stackoverflow.com/users/11282492/nathalie?tab=profile">
+            <FontAwesomeIcon icon={['fab', 'stack-overflow']} />
+          </a>
           <h1>Portfolio: <span>Nathalie Rautell</span></h1>
           <Title />
         </div>
+        <a id="arrow" href="">
+          <FontAwesomeIcon icon="angle-down" />
+        </a>
       </header>
     </>
   )
