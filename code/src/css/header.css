@@ -20,8 +20,15 @@ h1{
   font-weight: 300;
 }
 
+.logos-container{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
 .logos {
   color: white;
+  justify-self: flex-end;
 }
 
 .logos svg {
@@ -37,13 +44,12 @@ h1{
   height: 80px;
   min-width: 80px;
   padding: 0.75rem;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 #arrow{
   margin-top: 50px;
 }
-
 
 h1 span{
   font-weight: 700;
@@ -84,9 +90,8 @@ path{
 
 #visible {
   background: transparent;
-  transition: background 0.33s linear, color 0.33s linear, ;
+  transition: background 0.5s ease-in, color 0.5s ease-in, ;
 }
-
 
 @keyframes bounce {
   0%   { transform: scale(1,1)      translateY(0); }
