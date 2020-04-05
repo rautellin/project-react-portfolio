@@ -10,7 +10,7 @@ header{
 }
 
 a{
-  
+  color: transparent;
 }
 
 h1{
@@ -20,11 +20,11 @@ h1{
   font-weight: 300;
 }
 
-.logos, #arrow{
+.logos {
   color: white;
 }
 
-.logos svg, #arrow svg {
+.logos svg {
   background: rgb(189,136,89);
   background: linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
   height: 40px;
@@ -53,6 +53,8 @@ path{
   padding: 10px;
 }
 
+/* TITLE ANIMATION */
+
 @keyframes line-anim {
   to{
       stroke-dashoffset: 0;
@@ -71,13 +73,21 @@ path{
 
 #arrow svg{
   align-self: flex-end;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation: bounce 2s infinite cubic-bezier(0.280, 0.840, 0.420, 1);
   margin: 0 auto 0 auto;
   transform-origin: bottom;
-  animation-name: bounce;
-  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
 }
+
+#visible {
+  background: transparent;
+  transition: background 0.33s linear, color 0.33s linear, ;
+}
+
+
 @keyframes bounce {
   0%   { transform: scale(1,1)      translateY(0); }
   10%  { transform: scale(1.1,.9)   translateY(0); }
@@ -87,3 +97,6 @@ path{
   64%  { transform: scale(1,1)      translateY(0); }
   100% { transform: scale(1,1)      translateY(0); }
 }
+
+
+
