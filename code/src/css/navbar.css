@@ -13,3 +13,21 @@ ul {
   min-height: 70px;
 }
 
+nav a{
+  all: unset;
+  margin: 0 1rem;
+}
+
+#envelope #envelopeOpen,
+#envelope:hover #envelopeClose,
+#top #topTwo,
+#top:hover #topOne{
+  display: none;
+}
+
+#envelope:hover #envelopeOpen,
+#top:hover #topTwo{
+  display: inline;
+}
+
+
