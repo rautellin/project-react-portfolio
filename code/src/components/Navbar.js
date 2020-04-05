@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import "../css/navbar.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -8,18 +9,18 @@ export const Navbar = () => {
       <nav>
         <ul>
           <div className="icon-container">
-            <a id="top">
+            <a id="top" href="#home">
               <FontAwesomeIcon id="topOne" icon="angle-up" />
               <FontAwesomeIcon id="topTwo" icon="angle-double-up" />
             </a>
-            <a id="envelope">
+            <a id="envelope" href="#contact">
               <FontAwesomeIcon id="envelopeClose" icon="envelope" />
               <FontAwesomeIcon id="envelopeOpen" icon="envelope-open" />
             </a>
           </div>
-          <li>About</li>
-          <li>Tech</li>
-          <li>Projects</li>
+          <li><NavLink to="/about">About</NavLink></li>
+          <li><NavLink to="/tech">Tech</NavLink></li>
+          <li><NavLink to="/projects">Projects</NavLink></li>
         </ul>
       </nav>
     </>
