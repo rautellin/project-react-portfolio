@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 export const Navbar = () => {
   return (
     <>
-      <nav>
+      <nav id="nav">
         <ul>
           <div className="icon-container">
             <a id="top" href="#home">
@@ -19,8 +19,8 @@ export const Navbar = () => {
             </a>
           </div>
           <li><NavLink to="/about">About</NavLink></li>
-          <li><NavLink to="/tech">Tech</NavLink></li>
           <li><NavLink to="/projects">Projects</NavLink></li>
+          <li><NavLink to="/misc">Misc</NavLink></li>
         </ul>
       </nav>
     </>

@@ -1,7 +1,7 @@
 header{
   background: rgb(35,36,40);
   background: linear-gradient(31deg, rgba(35,36,40,1) 0%, rgba(60,63,68,1) 100%);
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,6 +18,10 @@ h1{
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
+}
+
+h1 span{
+  font-weight: 700;
 }
 
 .logos-container{
@@ -49,10 +53,6 @@ h1{
 
 #arrow{
   margin-top: 50px;
-}
-
-h1 span{
-  font-weight: 700;
 }
 
 path{

@@ -1,11 +1,41 @@
-section{
+main{
   font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  min-height: calc(100vh - 70px - 200px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
-section p{
+section {
   width: 1088px;
 }
+
+p::selection{
+  background: rgba(233,193,155,1);
+}
+
+h2{
+  background: rgb(189,136,89);
+  background: linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
+  width: max-content;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+main p{
+  margin: 3rem 0;
+}
+
+#about{
+  text-align: justify;
+  font-size: 1.25rem;
+}
+
+#tech{
+  text-align: center;
+  font-size: 1.5rem;
+}
+

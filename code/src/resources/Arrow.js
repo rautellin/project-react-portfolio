@@ -5,7 +5,7 @@ export const Arrow = () => {
 
   return (
     <>
-      <a id="arrow" href="https://www.youtube.com">
+      <a id="arrow" href="#nav">
         <FontAwesomeIcon id="visible" icon="angle-down" />
       </a>
     </>

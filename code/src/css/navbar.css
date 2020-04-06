@@ -19,30 +19,7 @@ ul {
 nav a{
   color: white;
   margin: 0 1rem;
-}
-
-li a::after{
-  content: '';
-  display: block;
-  margin-bottom: -20px;
-  width: 0px;
-  height: 3px;
-  background: transparent;
-}
-
-li a:hover::after{
-  width: 100%;
-  background: white;
-  animation: hoverEffect 0.2s ease;
-}
-
-@keyframes hoverEffect {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
+  font-size: 1.2rem;
 }
 
 #envelope #envelopeOpen,

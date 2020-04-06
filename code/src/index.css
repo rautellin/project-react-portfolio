@@ -7,10 +7,11 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  scroll-behavior: smooth;
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   color: white;
   background: rgb(103, 104, 107);
