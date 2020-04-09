@@ -2,35 +2,65 @@ nav{
   width: 100%;
   background: rgb(189,136,89);
   background: linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
 }
 
-ul {
+nav ul {
   width: 1088px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 70px;
+  min-height: 80px;
 }
 
 nav a{
   color: white;
-  margin: 0 1rem;
-  font-size: 1.2rem;
+}
+
+.icon-container svg{
+  margin-right: 0.75rem;
+  font-size: 2.75rem;
+  padding: 0.75rem;
+  border-radius: 50%;
+  background: #C9976A;
+  box-shadow: inset -4px 4px 7px #ab805a, 
+              inset 4px -4px 7px #e7ae7a;
+}
+
+.nav-container{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.svg-inline--fa.fa-w-10 {
+  width: 1em;
+}
+
+.nav-container a{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.nav-container a:hover{
+  font-weight: 700;
 }
 
 #envelope #envelopeOpen,
 #envelope:hover #envelopeClose,
 #top #topTwo,
-#top:hover #topOne{
+#top:hover #topOne,
+#home #houseUser,
+#home:hover #house{
   display: none;
 }
 
 #envelope:hover #envelopeOpen,
-#top:hover #topTwo{
+#top:hover #topTwo,
+#home:hover #houseUser{
   display: inline;
 }
 

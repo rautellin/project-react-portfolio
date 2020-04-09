@@ -9,7 +9,7 @@ export const Navbar = () => {
       <nav id="nav">
         <ul>
           <div className="icon-container">
-            <a id="top" href="#home">
+            <a id="top" href="#top">
               <FontAwesomeIcon id="topOne" icon="angle-up" />
               <FontAwesomeIcon id="topTwo" icon="angle-double-up" />
             </a>
@@ -17,10 +17,16 @@ export const Navbar = () => {
               <FontAwesomeIcon id="envelopeClose" icon="envelope" />
               <FontAwesomeIcon id="envelopeOpen" icon="envelope-open" />
             </a>
+            <a id="home" href="#home">
+              <FontAwesomeIcon id="house" icon="home" />
+              <FontAwesomeIcon id="houseUser" icon="house-user" />
+            </a>
           </div>
-          <li><NavLink to="/about">About</NavLink></li>
-          <li><NavLink to="/projects">Projects</NavLink></li>
-          <li><NavLink to="/misc">Misc</NavLink></li>
+          <div className="nav-container">
+            <li><NavLink to="/about">Skills</NavLink></li>
+            <li><NavLink to="/projects">Projects</NavLink></li>
+            <li><NavLink to="/misc">Blog</NavLink></li>
+          </div>
         </ul>
       </nav>
     </>

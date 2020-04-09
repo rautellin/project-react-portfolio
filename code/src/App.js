@@ -7,9 +7,9 @@ import { Projects } from './pages/Projects'
 import { Footer } from './components/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faHome, faHouseUser } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp)
+library.add(fab, faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faHome, faHouseUser)
 
 export const App = () => {
   return (

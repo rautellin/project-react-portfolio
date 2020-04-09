@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
 * {
   margin: 0;
@@ -8,6 +9,14 @@
   text-decoration: none;
   list-style-type: none;
   scroll-behavior: smooth;
+}
+
+p::selection,
+a::selection,
+h2::selection,
+h3::selection,
+h4::selection{
+  background: rgba(233,193,155,1);
 }
 
 body {
