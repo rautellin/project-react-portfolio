@@ -27,6 +27,7 @@ export const Skills = () => {
             <ul>
               <h3>Toolbox</h3>
               <li>Visual Studio Code</li>
+              <li>Emmet</li>
               <li>Github</li>
               <li>Chrome Dev Tool</li>
               <li>Firefox Dev Tool</li>
