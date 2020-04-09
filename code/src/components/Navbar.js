@@ -17,13 +17,13 @@ export const Navbar = () => {
               <FontAwesomeIcon id="envelopeClose" icon="envelope" />
               <FontAwesomeIcon id="envelopeOpen" icon="envelope-open" />
             </a>
-            <a id="home" href="#home">
+            <NavLink id="home" href="#home" to="/about">
               <FontAwesomeIcon id="house" icon="home" />
               <FontAwesomeIcon id="houseUser" icon="house-user" />
-            </a>
+            </NavLink>
           </div>
           <div className="nav-container">
-            <li><NavLink to="/about">Skills</NavLink></li>
+            <li><NavLink to="/skills">Skills</NavLink></li>
             <li><NavLink to="/projects">Projects</NavLink></li>
             <li><NavLink to="/misc">Blog</NavLink></li>
           </div>

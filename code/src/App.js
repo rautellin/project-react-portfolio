@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import { Header } from './components/Header'
 import { Navbar } from './components/Navbar'
 import { About } from './pages/About'
+import { Skills } from './pages/Skills'
 import { Projects } from './pages/Projects'
 import { Footer } from './components/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -23,6 +24,9 @@ export const App = () => {
           </Route>
           <Route path="/about" exact>
             <About />
+          </Route>
+          <Route path="/skills" exact>
+            <Skills />
           </Route>
           <Route path="/projects" exact>
             <Projects />
