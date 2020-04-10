@@ -1,20 +1,36 @@
 import React from 'react'
 import "../css/pages.css"
+import styled from 'styled-components';
 
 export const Skills = () => {
+
+  const SmallTitle = styled.h3`
+    color: rgba(233,193,155,1);
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.75rem;
+  `;
+
+  const Article = styled.article`
+    display: flex;
+    justify-content: space-evenly;
+  `;
 
   return (
     <>
       <main>
-        <section id="tech">
+        <section>
           <h2>Tech</h2>
           <p> HTML ⎪ CSS ⎪ JavaScript ⎪ ES6 ⎪ JSX ⎪ React ⎪ Redux ⎪ Node.js ⎪ Mongo DB ⎪ Web Accessibility ⎪ API ⎪ JSON ⎪ Cross browsing </p>
         </section>
-        <section id="skills">
+        <section>
           <h2>Knowledge</h2>
-          <article>
+          <Article>
             <ul>
-              <h3>Code</h3>
+              <SmallTitle>Code</SmallTitle>
               <li>HTML5</li>
               <li>Semantic-UI</li>
               <li>CSS3</li>
@@ -25,7 +41,7 @@ export const Skills = () => {
               <li>Node.js</li>
             </ul>
             <ul>
-              <h3>Toolbox</h3>
+              <SmallTitle>Toolbox</SmallTitle>
               <li>Visual Studio Code</li>
               <li>Emmet</li>
               <li>Github</li>
@@ -39,7 +55,7 @@ export const Skills = () => {
               <li>Slack</li>
             </ul>
             <ul>
-              <h3>Other</h3>
+              <SmallTitle>Other</SmallTitle>
               <li>Life insurance</li>
               <li>Money laundry</li>
               <li>Investment</li>
@@ -47,7 +63,7 @@ export const Skills = () => {
               <li>Fraud</li>
               <li>POS</li>
             </ul>
-          </article>
+          </Article>
         </section>
       </main>
     </>

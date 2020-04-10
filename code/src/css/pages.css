@@ -11,12 +11,9 @@ main{
   text-align: center;
 }
 
-
 section {
   width: 1088px;
 }
-
-/*
 
 h2{
   font-family: 'Lato', sans-serif;
@@ -24,24 +21,12 @@ h2{
   background: linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
   width: max-content;
   padding: 0.5rem 1rem;
-  margin: 0 auto 6rem auto;
+  margin: 0 auto;
   font-size: 1.75rem;
   text-transform: uppercase;
 }
 
-h3{
-  color: rgba(233,193,155,1);
-  font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
-  background: -webkit-linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-#skills h3{
-  font-size: 1.75rem;
-  margin-bottom: 1.5rem;
-}
+/*
 
 article{
   display: flex;
