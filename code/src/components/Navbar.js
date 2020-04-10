@@ -25,7 +25,7 @@ export const Navbar = () => {
           <div className="nav-container">
             <li><NavLink to="/skills">Skills</NavLink></li>
             <li><NavLink to="/projects">Projects</NavLink></li>
-            <li><NavLink to="/misc">Blog</NavLink></li>
+            <li><NavLink to="/blog">Blog</NavLink></li>
           </div>
         </ul>
       </nav>

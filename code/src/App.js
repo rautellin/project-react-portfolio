@@ -6,11 +6,12 @@ import { Footer } from './components/Footer'
 import { About } from './pages/About'
 import { Skills } from './pages/Skills'
 import { Projects } from './pages/Projects'
+import { Blog } from './pages/Blog'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faHome, faHouseUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faAngleDoubleRight, faHome, faHouseUser } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faHome, faHouseUser)
+library.add(fab, faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faAngleDoubleRight, faHome, faHouseUser)
 
 export const App = () => {
   return (
@@ -30,6 +31,9 @@ export const App = () => {
           </Route>
           <Route path="/projects" exact>
             <Projects />
+          </Route>
+          <Route path="/blog" exact>
+            <Blog />
           </Route>
         </Switch>
         <Footer />

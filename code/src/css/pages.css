@@ -1,5 +1,4 @@
 main{
-  margin: 3rem 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   width: 100%;
@@ -8,12 +7,16 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 1.5rem;
+  text-align: center;
 }
+
 
 section {
   width: 1088px;
-  margin-bottom: 3rem;
 }
+
+/*
 
 h2{
   font-family: 'Lato', sans-serif;
@@ -35,16 +38,6 @@ h3{
   -webkit-text-fill-color: transparent;
 }
 
-#about, #tech{
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-#skills{
-  text-align: center;
-  font-size: 1.5rem;
-}
-
 #skills h3{
   font-size: 1.75rem;
   margin-bottom: 1.5rem;
@@ -54,3 +47,12 @@ article{
   display: flex;
   justify-content: space-evenly;
 }
+
+.angle-double-right {
+  color: rgba(233,193,155,1);
+}
+
+.angle-double-right:hover {
+  color: white;
+}
+*/
