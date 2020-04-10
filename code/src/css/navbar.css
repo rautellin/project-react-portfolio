@@ -9,14 +9,18 @@ nav{
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  min-height: 80px;
 }
 
-nav ul {
+.hamburger{
+  display: none;
+}
+
+.nav-container {
   width: 1088px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 80px;
 }
 
 nav a{
@@ -33,7 +37,7 @@ nav a{
               inset 4px -4px 7px #e7ae7a;
 }
 
-.nav-container{
+.nav-links{
   width: 70%;
   display: flex;
   justify-content: space-between;
@@ -43,12 +47,12 @@ nav a{
   width: 1em;
 }
 
-.nav-container a{
+.nav-links a{
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-.nav-container a:hover{
+.nav-links a:hover{
   font-weight: 700;
 }
 
@@ -67,4 +71,47 @@ nav a{
   display: inline;
 }
 
+@media screen and (max-width: 1000px){
 
+  .line{
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+  }
+
+  .icon-container{
+    margin-left: 1rem;
+  }
+
+  .hamburger{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+
+  .nav-links{
+    background: rgb(189,136,89);
+    background: linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
+    position: fixed;
+    top: 80px;
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    clip-path: circle(100px at 90% -15%);
+    -webkit-clip-path: circle(100px at 90% -15%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+  }
+
+  .nav-links.open{
+    clip-path: circle(1200px at 90% -10%);
+    -webkit-clip-path: circle(1200px at 90% -10%);
+    pointer-events: all;
+  }
+}

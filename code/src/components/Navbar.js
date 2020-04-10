@@ -4,10 +4,16 @@ import "../css/navbar.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export const Navbar = () => {
+
   return (
     <>
-      <nav id="nav">
-        <ul>
+      <nav>
+        <div className="nav-container">
+          <div className="hamburger">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+          </div>
           <div className="icon-container">
             <a id="top" href="#top">
               <FontAwesomeIcon id="topOne" icon="angle-up" />
@@ -22,12 +28,12 @@ export const Navbar = () => {
               <FontAwesomeIcon id="houseUser" icon="house-user" />
             </NavLink>
           </div>
-          <div className="nav-container">
+          <ul className="nav-links">
             <li><NavLink to="/skills">Skills</NavLink></li>
             <li><NavLink to="/projects">Projects</NavLink></li>
             <li><NavLink to="/blog">Blog</NavLink></li>
-          </div>
-        </ul>
+          </ul>
+        </div>
       </nav>
     </>
   )
