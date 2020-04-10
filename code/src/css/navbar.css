@@ -10,6 +10,7 @@ nav{
   position: sticky;
   top: 0;
   min-height: 80px;
+  z-index: 1;
 }
 
 .hamburger{
@@ -81,7 +82,7 @@ nav a{
   }
 
   .icon-container{
-    margin-left: 1rem;
+    margin-left: 5%;
   }
 
   .hamburger{
@@ -97,7 +98,7 @@ nav a{
   .nav-links{
     background: rgb(189,136,89);
     background: linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
-    position: fixed;
+    position: absolute;
     top: 80px;
     min-height: calc(100vh - 80px);
     width: 100%;

@@ -84,7 +84,7 @@ path{
 
 #arrow svg{
   align-self: flex-end;
-  animation: bounce 2s infinite cubic-bezier(0.280, 0.840, 0.420, 1);
+  animation: bounce 2s 5 cubic-bezier(0.280, 0.840, 0.420, 1);
   margin: 0 auto 0 auto;
   transform-origin: bottom;
   height: 40px;

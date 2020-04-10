@@ -7,7 +7,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav>
+      <nav id="nav">
         <div className="nav-container">
           <div className="hamburger">
             <div className="line"></div>
