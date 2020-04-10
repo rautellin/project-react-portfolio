@@ -1,0 +1,170 @@
+{
+  "about": {
+    "name": "Nathalie Rautell",
+    "description": "You either find me typing on a keyboard or at the gym somewhere between the weights. So basically I'm always building something, if not websites and apps then physical strength. ",
+    "image": "./images/background.JPG",
+    "email": "nathalie.rautell@gmail.com",
+    "phone": {
+      "readable": "072-430 33 62",
+      "code": "+46724303362"
+    },
+    "website": "http://www.nathalierautell.com",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/rautellin"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/nathalierautell/"
+      },
+      {
+        "name": "stack",
+        "url": "https://stackoverflow.com/users/11282492/nathalie?tab=profile"
+      }
+    ]
+  },
+  "skills": {
+    "skillmessage": "A short write-up of your skills to show off to employers",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ES6",
+      "JSX",
+      "React",
+      "Redux",
+      "Node.js",
+      "Mongo DB",
+      "Web Accessibility",
+      "API",
+      "JSON",
+      "Cross browsing"
+    ],
+    "knowledge": [
+      {
+        "code": [
+          "HTML5",
+          "Semantic-UI",
+          "CSS3",
+          "JavaScript ES6",
+          "React.js",
+          "React Native",
+          "Git",
+          "Node.js"
+        ]
+      },
+      {
+        "toolbox": [
+          "HTML5",
+          "Semantic-UI",
+          "CSS3",
+          "JavaScript ES6",
+          "React.js",
+          "React Native",
+          "Git",
+          "Node.js"
+        ]
+      },
+      {
+        "other": [
+          "HTML5",
+          "Semantic-UI",
+          "CSS3",
+          "JavaScript ES6",
+          "React.js",
+          "React Native",
+          "Git",
+          "Node.js"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "featured projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "date": "2020-04-01",
+        "category": "My Travel Blog for my post-university travels",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com",
+        "tech": [
+          "API",
+          "CSS",
+          "JSX"
+        ]
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "date": "2020-04-01",
+        "category": "My Travel Blog for my post-university travels",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com",
+        "tech": [
+          "API",
+          "CSS",
+          "JSX"
+        ]
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "date": "2020-04-01",
+        "category": "My Travel Blog for my post-university travels",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com",
+        "tech": [
+          "API",
+          "CSS",
+          "JSX"
+        ]
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "date": "2020-04-01",
+        "category": "My Travel Blog for my post-university travels",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com",
+        "tech": [
+          "API",
+          "CSS",
+          "JSX"
+        ]
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "date": "2020-04-01",
+        "category": "My Travel Blog for my post-university travels",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com",
+        "tech": [
+          "API",
+          "CSS",
+          "JSX"
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "my thoughts about code": [
+      {
+        "title": "Canadian Wanderlust",
+        "date": "2020-04-01",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "date": "2020-04-01",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}

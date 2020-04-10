@@ -1,12 +1,12 @@
 import React from 'react'
 import "../css/pages.css"
 import styled from 'styled-components';
-import img from '../resources/background.JPG'
+import data from '../data/data'
 
 export const About = () => {
 
   const Section = styled.section`
-    background-image: url(${img});
+    background-image: url('${data.about.image}');
     background-size: cover;
     min-height: calc(100vh - 70px - 200px);
     padding: 1rem;
@@ -19,7 +19,7 @@ export const About = () => {
     <>
       <main>
         <Section>
-          <p><em>You either find me typing on a keyboard or at the gym somewhere between the weights. So basically I'm always building something, if not websites and apps then physical strength. </em></p>
+          <p><em>{data.about.description}</em></p>
         </Section>
       </main>
     </>
