@@ -12,7 +12,8 @@ main{
 }
 
 section {
-  width: 1088px;
+  max-width: 1088px;
+  width: 100%;
 }
 
 h2{
