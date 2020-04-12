@@ -1,8 +1,9 @@
 import React from 'react'
+import { motion, AnimatePresence } from "framer-motion"
 import "../css/pages.css"
 import styled from 'styled-components';
 
-export const Skills = () => {
+export const Skills = ({ pageTransition, pageVariants, style }) => {
 
   const SmallTitle = styled.h3`
     color: rgba(233,193,155,1);
@@ -21,7 +22,13 @@ export const Skills = () => {
 
   return (
     <>
-      <main>
+      <motion.div
+        initial={pageVariants.initial}
+        animate={pageVariants.in}
+        exit={pageVariants.out}
+        transition={pageTransition}
+        style={style}
+      >
         <section>
           <h2>Tech</h2>
           <p> HTML ⎪ CSS ⎪ JavaScript ⎪ ES6 ⎪ JSX ⎪ React ⎪ Redux ⎪ Node.js ⎪ Mongo DB ⎪ Web Accessibility ⎪ API ⎪ JSON ⎪ Cross browsing </p>
@@ -65,7 +72,7 @@ export const Skills = () => {
             </ul>
           </Article>
         </section>
-      </main>
+      </motion.div>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { AnimatePresence } from "framer-motion"
+import { Switch, Route, useLocation } from 'react-router-dom'
 import { Header } from './components/Header'
 import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
@@ -13,31 +14,64 @@ import { faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, fa
 
 library.add(fab, faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faAngleDoubleRight, faHome, faHouseUser)
 
+const pageVariants = {
+  initial: {
+    opacity: 0,
+    x: '-100vw',
+    scale: 0.8
+  },
+  in: {
+    opacity: 1,
+    x: 0,
+    scale: 1
+  },
+  out: {
+    opacity: 0,
+    x: '100vw',
+    scale: 1.2
+  }
+}
+
+const pageTransition = {
+  type: 'tween',
+  ease: 'anticipate',
+  duration: 0.5
+}
+
+const pageStyle = {
+  position: 'absolute'
+}
+
 export const App = () => {
+
+  const location = useLocation()
+
   return (
     <>
-      <BrowserRouter>
-        <Header />
-        <Navbar />
-        <Switch>
-          <Route path="/" exact>
-            <About />
-          </Route>
-          <Route path="/about" exact>
-            <About />
-          </Route>
-          <Route path="/skills" exact>
-            <Skills />
-          </Route>
-          <Route path="/projects" exact>
-            <Projects />
-          </Route>
-          <Route path="/blog" exact>
-            <Blog />
-          </Route>
-        </Switch>
-        <Footer />
-      </BrowserRouter>
+      <Header />
+      <Navbar />
+      <main>
+        <AnimatePresence >
+          <Switch location={location} key={location.pathname}>
+            <Route path="/" exact>
+              <About pageTransition={pageTransition} pageVariants={pageVariants} style={pageStyle} />
+            </Route>
+            <Route path="/about" exact>
+              <About pageTransition={pageTransition} pageVariants={pageVariants} style={pageStyle} />
+            </Route>
+            <Route path="/skills" exact>
+              <Skills pageTransition={pageTransition} pageVariants={pageVariants} style={pageStyle} />
+            </Route>
+            <Route path="/projects" exact>
+              <Projects pageTransition={pageTransition} pageVariants={pageVariants} style={pageStyle} />
+            </Route>
+            <Route path="/blog" exact>
+              <Blog pageTransition={pageTransition} pageVariants={pageVariants} style={pageStyle} />
+            </Route>
+          </Switch>
+        </AnimatePresence>
+      </main>
+      <Footer />
     </>
   )
 }

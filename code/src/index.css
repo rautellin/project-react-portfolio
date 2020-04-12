@@ -26,3 +26,6 @@ body {
   background: rgb(103, 104, 107);
 }
 
+main{
+  position: relative;
+}

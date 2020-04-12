@@ -1,12 +1,19 @@
 import React from 'react'
+import { motion, AnimatePresence } from "framer-motion"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../css/pages.css"
 
-export const Blog = () => {
+export const Blog = ({ pageTransition, pageVariants, style }) => {
 
   return (
     <>
-      <main>
+      <motion.div
+        initial={pageVariants.initial}
+        animate={pageVariants.in}
+        exit={pageVariants.out}
+        transition={pageTransition}
+        style={style}
+      >
         <section id="blog">
           <h2>My thoughts about code</h2>
           <article>
@@ -24,7 +31,7 @@ export const Blog = () => {
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita. <a target="_blank" rel="noopener noreferrer" href="https://youtube.com"><FontAwesomeIcon className="angle-double-right" icon="angle-double-right" /></a></p>
           </article>
         </section>
-      </main>
+      </motion.div>
     </>
   )
 }
