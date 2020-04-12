@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import "../css/pages.css"
 import styled from 'styled-components';
 
-export const Skills = ({ pageTransition, pageVariants, style }) => {
+export const Skills = ({ style, container, item }) => {
 
   const SmallTitle = styled.h3`
     color: rgba(233,193,155,1);
@@ -23,17 +23,17 @@ export const Skills = ({ pageTransition, pageVariants, style }) => {
   return (
     <>
       <motion.div
-        initial={pageVariants.initial}
-        animate={pageVariants.in}
-        exit={pageVariants.out}
-        transition={pageTransition}
+        variants={container}
+        initial='hidden'
+        animate='visible'
+        exit={container}
         style={style}
       >
-        <section>
+        <motion.section variants={item}>
           <h2>Tech</h2>
           <p> HTML ⎪ CSS ⎪ JavaScript ⎪ ES6 ⎪ JSX ⎪ React ⎪ Redux ⎪ Node.js ⎪ Mongo DB ⎪ Web Accessibility ⎪ API ⎪ JSON ⎪ Cross browsing </p>
-        </section>
-        <section>
+        </motion.section>
+        <motion.section variants={item}>
           <h2>Knowledge</h2>
           <Article>
             <ul>
@@ -71,7 +71,7 @@ export const Skills = ({ pageTransition, pageVariants, style }) => {
               <li>POS</li>
             </ul>
           </Article>
-        </section>
+        </motion.section>
       </motion.div>
     </>
   )

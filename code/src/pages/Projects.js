@@ -3,18 +3,18 @@ import { motion, AnimatePresence } from "framer-motion"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../css/pages.css"
 
-export const Projects = ({ pageTransition, pageVariants, style }) => {
+export const Projects = ({ container, item, style }) => {
 
   return (
     <>
       <motion.div
-        initial={pageVariants.initial}
-        animate={pageVariants.in}
-        exit={pageVariants.out}
-        transition={pageTransition}
+        variants={container}
+        initial='hidden'
+        animate='visible'
+        exit={container}
         style={style}
       >
-        <section id="projects">
+        <motion.section id="projects" variants={item}>
           <h2>Featured projects</h2>
           <article>
             <h5>April 2020</h5>
@@ -30,7 +30,7 @@ export const Projects = ({ pageTransition, pageVariants, style }) => {
             <h3>Other projects</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita. <a target="_blank" rel="noopener noreferrer" href="https://youtube.com"><FontAwesomeIcon className="angle-double-right" icon="angle-double-right" /></a></p>
           </article>
-        </section>
+        </motion.section>
       </motion.div>
     </>
   )
