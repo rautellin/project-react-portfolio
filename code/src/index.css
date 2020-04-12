@@ -27,5 +27,5 @@ body {
 }
 
 main{
-  position: relative;
+  position: static;
 }

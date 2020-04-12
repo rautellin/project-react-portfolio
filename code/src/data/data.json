@@ -81,14 +81,39 @@
     ]
   },
   "projects": {
-    "featured projects": [
+    "featured": [
+      {
+        "title": "RSVP app",
+        "created": "March 2020",
+        "description": "React.js application form for RSVP ",
+        "image": "./images/RSVP.png",
+        "url": "https://rautellin-survey.netlify.com/",
+        "tech": [
+          "React.js",
+          "HTML5",
+          "CSS3",
+          "JSX"
+        ]
+      },
+      {
+        "title": "Happy thoughts app",
+        "created": "March 2020",
+        "description": "React.js application used for fetching and posting data to an API. Used to post and like short messages.",
+        "image": "./images/happythoughts.png",
+        "url": "https://rautellin-happy-thoughts.netlify.com/",
+        "tech": [
+          "React.js",
+          "API",
+          "CSS3",
+          "JSX"
+        ]
+      },
       {
         "title": "Canadian Wanderlust",
-        "date": "2020-04-01",
-        "category": "My Travel Blog for my post-university travels",
+        "created": "March 2020",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com",
+        "image": "./images/happythoughts.png",
+        "url": "https://rautellin-happy-thoughts.netlify.com/",
         "tech": [
           "API",
           "CSS",
@@ -97,11 +122,10 @@
       },
       {
         "title": "Canadian Wanderlust",
-        "date": "2020-04-01",
-        "category": "My Travel Blog for my post-university travels",
+        "created": "March 2020",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com",
+        "image": "./images/happythoughts.png",
+        "url": "https://rautellin-happy-thoughts.netlify.com/",
         "tech": [
           "API",
           "CSS",
@@ -110,37 +134,10 @@
       },
       {
         "title": "Canadian Wanderlust",
-        "date": "2020-04-01",
-        "category": "My Travel Blog for my post-university travels",
+        "created": "March 2020",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com",
-        "tech": [
-          "API",
-          "CSS",
-          "JSX"
-        ]
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "date": "2020-04-01",
-        "category": "My Travel Blog for my post-university travels",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com",
-        "tech": [
-          "API",
-          "CSS",
-          "JSX"
-        ]
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "date": "2020-04-01",
-        "category": "My Travel Blog for my post-university travels",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com",
+        "image": "./images/happythoughts.png",
+        "url": "https://rautellin-happy-thoughts.netlify.com/",
         "tech": [
           "API",
           "CSS",
@@ -153,14 +150,14 @@
     "my thoughts about code": [
       {
         "title": "Canadian Wanderlust",
-        "date": "2020-04-01",
+        "created": "2020-04-01",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
         "image": "canadian-wanderlust.jpg",
         "url": "https://www.canadianwanderlust.com"
       },
       {
         "title": "Canadian Wanderlust",
-        "date": "2020-04-01",
+        "created": "2020-04-01",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
         "image": "canadian-wanderlust.jpg",
         "url": "https://www.canadianwanderlust.com"

@@ -15,7 +15,7 @@ import { faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, fa
 library.add(fab, faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faAngleDoubleRight, faHome, faHouseUser)
 
 const pageStyle = {
-  position: 'absolute'
+  position: 'relative'
 }
 
 const container = {
