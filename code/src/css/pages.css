@@ -1,16 +1,3 @@
-main{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  width: 100%;
-  min-height: calc(100vh - 70px - 200px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
 section {
   max-width: 1088px;
   width: 100%;
@@ -26,4 +13,108 @@ h2{
   font-size: 1.75rem;
   text-transform: uppercase;
 }
+
+#projects{
+  margin-top: 3rem;
+}
+
+#projects ul{
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+#projects a{
+  color: rgba(233,193,155,1);
+}
+
+#projects a:hover{
+  color: white;
+}
+
+#projects li{
+  font-size: 1rem;
+  background-color: rgba(233,193,155);
+  margin-right: 0.5rem;
+  padding: 0.25rem;
+  min-width: 75px;
+  text-align: center;
+}
+
+h3, h4, h5{
+  text-transform: uppercase;
+}
+
+h3, h5 {
+  color: rgba(233,193,155,1);
+  font-family: 'Lato', sans-serif;
+  background: -webkit-linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.featured-projects-container {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(342px, 1fr));
+  grid-gap: 2rem;
+}
+
+.featured-projects-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-projects-container article{
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.project-image a{
+  visibility: hidden;
+}
+
+.project-image:hover::before {
+  content: '';
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.8;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.project-image:hover h4 {
+  color: white;
+}
+
+.project-image h4{
+  color: transparent;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.other-projects-container { 
+  margin-bottom: 3rem;
+}
+
+.other-projects-container h3{ 
+  text-align: center;
+}
+
+.other-projects-container article{ 
+  margin-bottom: 1rem;
+}
+
+
 

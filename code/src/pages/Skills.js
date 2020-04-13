@@ -1,7 +1,7 @@
 import React from 'react'
-import { motion } from "framer-motion"
-import "../css/pages.css"
-import styled from 'styled-components';
+import { motion } from 'framer-motion'
+import '../css/pages.css'
+import styled from 'styled-components'
 
 export const Skills = ({ style, container, item }) => {
 
