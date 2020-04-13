@@ -5,16 +5,6 @@ import styled from 'styled-components'
 
 export const Skills = ({ style, container, item }) => {
 
-  const SmallTitle = styled.h3`
-    color: rgba(233,193,155,1);
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    background: -webkit-linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.75rem;
-  `;
-
   const Article = styled.article`
     display: flex;
     justify-content: space-evenly;
@@ -28,6 +18,7 @@ export const Skills = ({ style, container, item }) => {
         animate='visible'
         exit={container}
         style={style}
+        className='skills-container'
       >
         <motion.section variants={item}>
           <h2>Tech</h2>
@@ -37,7 +28,7 @@ export const Skills = ({ style, container, item }) => {
           <h2>Knowledge</h2>
           <Article>
             <ul>
-              <SmallTitle>Code</SmallTitle>
+              <h3>Code</h3>
               <li>HTML5</li>
               <li>Semantic-UI</li>
               <li>CSS3</li>
@@ -48,7 +39,7 @@ export const Skills = ({ style, container, item }) => {
               <li>Node.js</li>
             </ul>
             <ul>
-              <SmallTitle>Toolbox</SmallTitle>
+              <h3>Toolbox</h3>
               <li>Visual Studio Code</li>
               <li>Emmet</li>
               <li>Github</li>
@@ -62,7 +53,7 @@ export const Skills = ({ style, container, item }) => {
               <li>Slack</li>
             </ul>
             <ul>
-              <SmallTitle>Other</SmallTitle>
+              <h3>Other</h3>
               <li>Life insurance</li>
               <li>Money laundry</li>
               <li>Investment</li>
