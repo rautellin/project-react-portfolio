@@ -182,19 +182,19 @@
     ]
   },
   "blog": {
-    "my thoughts about code": [
+    "posts": [
       {
         "title": "Canadian Wanderlust",
-        "created": "2020-04-01",
+        "created": "April 2020",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "canadian-wanderlust.jpg",
+        "image": "happythoughts.png",
         "url": "https://www.canadianwanderlust.com"
       },
       {
         "title": "Canadian Wanderlust",
-        "created": "2020-04-01",
+        "created": "April 2020",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "canadian-wanderlust.jpg",
+        "image": "happythoughts.png",
         "url": "https://www.canadianwanderlust.com"
       }
     ]

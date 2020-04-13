@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
 * {
@@ -19,7 +18,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   color: white;
-  background: rgb(103, 104, 107);
+  background: rgb(79, 79, 82);
 }
 
 main{
