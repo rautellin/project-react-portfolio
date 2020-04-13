@@ -1,12 +1,12 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../css/pages.css"
-import data from '../data/data'
+import data from '../data/data.json'
 
 export const Projects = ({ container, item, style }) => {
 
   const featuredProjects = data.projects.featured
+  const otherProjects = data.projects.other
 
   return (
     <>
@@ -22,6 +22,8 @@ export const Projects = ({ container, item, style }) => {
           {featuredProjects.map((project, index) => (
             <>
               <article key={index}>
+                <img src={`./images/${project.image}`} alt="" />
+                {console.log(project.image)}
                 <h5>{project.created}</h5>
                 <h4>{project.title}</h4>
                 <p>{project.description}</p>
@@ -37,7 +39,21 @@ export const Projects = ({ container, item, style }) => {
           ))}
           <article>
             <h3>Other projects</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita. <a target="_blank" rel="noopener noreferrer" href="https://youtube.com"><FontAwesomeIcon className="angle-double-right" icon="angle-double-right" /></a></p>
+            {otherProjects.map((project, index) => (
+              <>
+                <article key={index}>
+                  <h4>{project.title}</h4>
+                  <p>{project.description}</p>
+                  <ul>
+                    {project.tech.map((item, index) => (
+                      <>
+                        <li key={index}>{item}</li>
+                      </>
+                    ))}
+                  </ul>
+                </article>
+              </>
+            ))}
           </article>
         </motion.section>
       </motion.div>

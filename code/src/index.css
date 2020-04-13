@@ -11,11 +11,7 @@
   scroll-behavior: smooth;
 }
 
-p::selection,
-a::selection,
-h2::selection,
-h3::selection,
-h4::selection{
+*::selection{
   background: rgba(233,193,155,1);
 }
 

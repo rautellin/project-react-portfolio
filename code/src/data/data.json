@@ -86,7 +86,7 @@
         "title": "RSVP app",
         "created": "March 2020",
         "description": "React.js application form for RSVP ",
-        "image": "./images/RSVP.png",
+        "image": "RSVP.png",
         "url": "https://rautellin-survey.netlify.com/",
         "tech": [
           "React.js",
@@ -99,7 +99,7 @@
         "title": "Happy thoughts app",
         "created": "March 2020",
         "description": "React.js application used for fetching and posting data to an API. Used to post and like short messages.",
-        "image": "./images/happythoughts.png",
+        "image": "happythoughts.png",
         "url": "https://rautellin-happy-thoughts.netlify.com/",
         "tech": [
           "React.js",
@@ -112,7 +112,7 @@
         "title": "Canadian Wanderlust",
         "created": "March 2020",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "./images/happythoughts.png",
+        "image": "pizza.png",
         "url": "https://rautellin-happy-thoughts.netlify.com/",
         "tech": [
           "API",
@@ -124,7 +124,7 @@
         "title": "Canadian Wanderlust",
         "created": "March 2020",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "./images/happythoughts.png",
+        "image": "happythoughts.png",
         "url": "https://rautellin-happy-thoughts.netlify.com/",
         "tech": [
           "API",
@@ -136,11 +136,46 @@
         "title": "Canadian Wanderlust",
         "created": "March 2020",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "./images/happythoughts.png",
+        "image": "happythoughts.png",
         "url": "https://rautellin-happy-thoughts.netlify.com/",
         "tech": [
           "API",
           "CSS",
+          "JSX"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "title": "RSVP app",
+        "description": "React.js application form for RSVP ",
+        "url": "https://rautellin-survey.netlify.com/",
+        "tech": [
+          "React.js",
+          "HTML5",
+          "CSS3",
+          "JSX"
+        ]
+      },
+      {
+        "title": "RSVP app",
+        "description": "React.js application form for RSVP ",
+        "url": "https://rautellin-survey.netlify.com/",
+        "tech": [
+          "React.js",
+          "HTML5",
+          "CSS3",
+          "JSX"
+        ]
+      },
+      {
+        "title": "RSVP app",
+        "description": "React.js application form for RSVP ",
+        "url": "https://rautellin-survey.netlify.com/",
+        "tech": [
+          "React.js",
+          "HTML5",
+          "CSS3",
           "JSX"
         ]
       }
