@@ -155,43 +155,29 @@
         ]
       },
        {
-        "title": "Cluedo game generator",
+        "title": "Pizza bot",
         "created": "February 2020",
-        "description": "Cluedo generator showing the user a randomized chosen weapon, murderer and room in a modal box. CSS animations is also implemented.",
-        "image": "cluedo.png",
+        "description": ".",
+        "image": "pizza.png",
+        "github": "https://github.com/rautellin/project-pizza-bot",
+        "url": "https://rautellin-pizza-bot.netlify.com/",
+        "tech": [
+          "ES6",
+          "CSS3",
+          "HTML5"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "title": "Cluedo game generator",
+        "description": "Cluedo generator showing the user a randomized chosen weapon, suspect and room in a modal box. CSS animations is also implemented.",
         "github": "https://github.com/rautellin/project-cluedo",
         "url": "https://rautellin-cluedo.netlify.com",
         "tech": [
           "ES6",
           "CSS3",
           "HTML5"
-        ]
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "created": "March 2020",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "happythoughts.png",
-        "github": "https://github.com/rautellin/project-survey",
-        "url": "https://rautellin-happy-thoughts.netlify.com/",
-        "tech": [
-          "API",
-          "CSS",
-          "JSX"
-        ]
-      }
-    ],
-    "other": [
-      {
-        "title": "RSVP app",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "github": "https://github.com/rautellin/project-survey",
-        "url": "https://rautellin-survey.netlify.com/",
-        "tech": [
-          "React.js",
-          "HTML5",
-          "CSS3",
-          "JSX"
         ]
       },
       {
