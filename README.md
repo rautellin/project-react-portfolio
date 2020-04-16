@@ -1,6 +1,6 @@
 # Portfolio React
 
-Portfolio site using React and JSON
+One page site for my portfolio using React.js and JSON
 
 ## View it live
 
