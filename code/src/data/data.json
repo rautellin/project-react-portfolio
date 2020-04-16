@@ -63,6 +63,7 @@
           "Postman",
           "Expo",
           "Chrome DevTools",
+          "React Developer Tool for Chrome",
           "Firefox Developer Tool",
           "Firefox Developer Edition",
           "Xcode",
@@ -92,7 +93,7 @@
         "url": "https://rautellin-movie-app.netlify.com",
         "tech": [
           "React.js",
-          "HTML5",
+          "API",
           "CSS3",
           "JSX"
         ]
@@ -120,21 +121,22 @@
         "url": "https://rautellin-survey.netlify.com/",
         "tech": [
           "React.js",
-          "HTML5",
+          "ES6",
           "CSS3",
           "JSX"
         ]
       },
       {
-        "title": "Canadian Wanderlust",
+        "title": "Music release App",
         "created": "March 2020",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "pizza.png",
-        "github": "https://github.com/rautellin/project-survey",
-        "url": "https://rautellin-happy-thoughts.netlify.com/",
+        "description": "One-page React.js application showing data from Spotify's API. The application shows new music releases and popular playlists.",
+        "image": "musicrelease.png",
+        "github": "https://github.com/rautellin/project-music-releases",
+        "url": "https://rautellin-music-app.netlify.com/",
         "tech": [
-          "API",
-          "CSS",
+          "React.js",
+          "HTML5",
+          "CSS3",
           "JSX"
         ]
       },
