@@ -1,7 +1,7 @@
 {
   "about": {
     "name": "Nathalie Rautell",
-    "description": "You either find me typing on a keyboard or at the gym somewhere between the weights. So basically I'm always building something, if not websites and apps then physical strength. ",
+    "description": "You either find me typing on a keyboard or at the gym somewhere between the weights. So basically I'm always building something, if not websites and applications then physical strength. ",
     "image": "./images/background.JPG",
     "email": "nathalie.rautell@gmail.com",
     "phone": {
@@ -32,7 +32,8 @@
       "JavaScript",
       "ES6",
       "JSX",
-      "React",
+      "React.js",
+      "React Native",
       "Redux",
       "Node.js",
       "Mongo DB",
@@ -56,37 +57,52 @@
       },
       {
         "toolbox": [
-          "HTML5",
-          "Semantic-UI",
-          "CSS3",
-          "JavaScript ES6",
-          "React.js",
-          "React Native",
+          "Visual Studio Code",
+          "Npm",
           "Git",
-          "Node.js"
+          "Postman",
+          "Expo",
+          "Chrome DevTools",
+          "Firefox Developer Tool",
+          "Firefox Developer Edition",
+          "Xcode",
+          "Android Studio"
         ]
       },
       {
         "other": [
-          "HTML5",
-          "Semantic-UI",
-          "CSS3",
-          "JavaScript ES6",
-          "React.js",
-          "React Native",
-          "Git",
-          "Node.js"
+          "Insuresec",
+          "Inca",
+          "Scrive",
+          "SalesForce",
+          "eTrack",
+          "Vergic"
         ]
       }
     ]
   },
   "projects": {
     "featured": [
+       {
+        "title": "Movie app",
+        "created": "April 2020",
+        "description": "Multi-page React.js application showing data from themoviedb.org's API. The shown data is fetched from different API urls, the chosen url is based on to the user interaction",
+        "image": "movies.png",
+        "github": "https://github.com/rautellin/project-movies",
+        "url": "https://rautellin-movie-app.netlify.com",
+        "tech": [
+          "React.js",
+          "HTML5",
+          "CSS3",
+          "JSX"
+        ]
+      },
       {
         "title": "RSVP app",
         "created": "March 2020",
-        "description": "React.js application form for RSVP ",
+        "description": "Multi-step form built with React.js for RSVP where each question is shown in its own section and a progress bar is shown.",
         "image": "RSVP.png",
+        "github": "https://github.com/rautellin/project-survey",
         "url": "https://rautellin-survey.netlify.com/",
         "tech": [
           "React.js",
@@ -100,6 +116,7 @@
         "created": "March 2020",
         "description": "React.js application used for fetching and posting data to an API. Used to post and like short messages.",
         "image": "happythoughts.png",
+        "github": "https://github.com/rautellin/project-survey",
         "url": "https://rautellin-happy-thoughts.netlify.com/",
         "tech": [
           "React.js",
@@ -113,6 +130,7 @@
         "created": "March 2020",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
         "image": "pizza.png",
+        "github": "https://github.com/rautellin/project-survey",
         "url": "https://rautellin-happy-thoughts.netlify.com/",
         "tech": [
           "API",
@@ -125,6 +143,7 @@
         "created": "March 2020",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
         "image": "happythoughts.png",
+        "github": "https://github.com/rautellin/project-survey",
         "url": "https://rautellin-happy-thoughts.netlify.com/",
         "tech": [
           "API",
@@ -137,6 +156,7 @@
         "created": "March 2020",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
         "image": "happythoughts.png",
+        "github": "https://github.com/rautellin/project-survey",
         "url": "https://rautellin-happy-thoughts.netlify.com/",
         "tech": [
           "API",
@@ -149,6 +169,7 @@
       {
         "title": "RSVP app",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
+        "github": "https://github.com/rautellin/project-survey",
         "url": "https://rautellin-survey.netlify.com/",
         "tech": [
           "React.js",
@@ -160,6 +181,7 @@
       {
         "title": "RSVP app",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
+        "github": "https://github.com/rautellin/project-survey",
         "url": "https://rautellin-survey.netlify.com/",
         "tech": [
           "React.js",
@@ -171,6 +193,7 @@
       {
         "title": "RSVP app",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
+        "github": "https://github.com/rautellin/project-survey",
         "url": "https://rautellin-survey.netlify.com/",
         "tech": [
           "React.js",
