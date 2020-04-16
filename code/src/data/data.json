@@ -98,6 +98,20 @@
         ]
       },
       {
+        "title": "Happy thoughts app",
+        "created": "March 2020",
+        "description": "React.js Twitter-like application used for fetching and posting data to an API. Used to post and like short messages.",
+        "image": "happythoughts.png",
+        "github": "https://github.com/rautellin/project-happy-thoughts",
+        "url": "https://rautellin-happy-thoughts.netlify.com/",
+        "tech": [
+          "React.js",
+          "API",
+          "CSS3",
+          "JSX"
+        ]
+      },
+      {
         "title": "RSVP app",
         "created": "March 2020",
         "description": "Multi-step form built with React.js for RSVP where each question is shown in its own section and a progress bar is shown.",
@@ -107,20 +121,6 @@
         "tech": [
           "React.js",
           "HTML5",
-          "CSS3",
-          "JSX"
-        ]
-      },
-      {
-        "title": "Happy thoughts app",
-        "created": "March 2020",
-        "description": "React.js application used for fetching and posting data to an API. Used to post and like short messages.",
-        "image": "happythoughts.png",
-        "github": "https://github.com/rautellin/project-survey",
-        "url": "https://rautellin-happy-thoughts.netlify.com/",
-        "tech": [
-          "React.js",
-          "API",
           "CSS3",
           "JSX"
         ]
