@@ -28,7 +28,7 @@ export const Projects = ({ container, item, style }) => {
                     <img src={`./images/${project.image}`} alt="" />
                     <div className="project-image-links">
                       <a target="_blank" rel="noopener noreferrer" href={project.url}><FontAwesomeIcon icon="globe" /></a>
-                      <a target="_blank" rel="noopener noreferrer" href={project.url}><FontAwesomeIcon icon="code" /></a>
+                      <a target="_blank" rel="noopener noreferrer" href={project.github}><FontAwesomeIcon icon="code" /></a>
                     </div>
                   </div>
                   <h5>{project.created}</h5>
