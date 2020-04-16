@@ -87,7 +87,7 @@
        {
         "title": "Movie app",
         "created": "April 2020",
-        "description": "Multi-page React.js application showing data from themoviedb.org's API. The shown data is fetched from different API urls, the chosen url is based on to the user interaction",
+        "description": "Multi-page React.js application showing data from themoviedb.org's API. The shown data is fetched from different API urls, the chosen url is based on to the user interaction.",
         "image": "movies.png",
         "github": "https://github.com/rautellin/project-movies",
         "url": "https://rautellin-movie-app.netlify.com",
@@ -157,7 +157,7 @@
        {
         "title": "Pizza bot",
         "created": "February 2020",
-        "description": ".",
+        "description": "Pizza application built with html, css and javascript. Depending on user input it displays an order confirmation with calculated price and time in a modal box.",
         "image": "pizza.png",
         "github": "https://github.com/rautellin/project-pizza-bot",
         "url": "https://rautellin-pizza-bot.netlify.com/",
@@ -181,27 +181,23 @@
         ]
       },
       {
-        "title": "RSVP app",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "github": "https://github.com/rautellin/project-survey",
-        "url": "https://rautellin-survey.netlify.com/",
+        "title": "Business site",
+        "description": "A business site with main focus the functionality and the design for a hero video, an accordian and a sign up form.",
+        "github": "https://github.com/rautellin/project-business-site",
+        "url": "https://rautellin-business-site.netlify.com/",
         "tech": [
-          "React.js",
           "HTML5",
-          "CSS3",
-          "JSX"
+          "CSS3"
         ]
       },
       {
-        "title": "RSVP app",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "github": "https://github.com/rautellin/project-survey",
-        "url": "https://rautellin-survey.netlify.com/",
+        "title": "News site",
+        "description": "A newspaper site with focus on responsive design, CSS flexbox and CSS grid.",
+        "github": "https://github.com/rautellin/project-news-site",
+        "url": "https://rautellin-news-site.netlify.com/",
         "tech": [
-          "React.js",
           "HTML5",
-          "CSS3",
-          "JSX"
+          "CSS3"
         ]
       }
     ]
