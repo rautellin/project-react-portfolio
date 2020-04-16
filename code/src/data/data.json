@@ -135,22 +135,36 @@
         "url": "https://rautellin-music-app.netlify.com/",
         "tech": [
           "React.js",
-          "HTML5",
+          "API",
           "CSS3",
           "JSX"
         ]
       },
-      {
-        "title": "Canadian Wanderlust",
-        "created": "March 2020",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "happythoughts.png",
-        "github": "https://github.com/rautellin/project-survey",
-        "url": "https://rautellin-happy-thoughts.netlify.com/",
+     {
+        "title": "Weather app",
+        "created": "February 2020",
+        "description": "Weather application showing data fetched from Open Weather Map's API. The application is showing current weather and a five day forecast based on the user's current location. The application also has a darkmode depending on the current time and other CSS animations.",
+        "image": "weather.png",
+        "github": "https://github.com/rautellin/project-weather-app",
+        "url": "https://rautellin-weather-app.netlify.com",
         "tech": [
+          "ES6",
+          "CSS3",
           "API",
-          "CSS",
-          "JSX"
+          "JSON"
+        ]
+      },
+       {
+        "title": "Cluedo game generator",
+        "created": "February 2020",
+        "description": "Cluedo generator showing the user a randomized chosen weapon, murderer and room in a modal box. CSS animations is also implemented.",
+        "image": "cluedo.png",
+        "github": "https://github.com/rautellin/project-cluedo",
+        "url": "https://rautellin-cluedo.netlify.com",
+        "tech": [
+          "ES6",
+          "CSS3",
+          "HTML5"
         ]
       },
       {
