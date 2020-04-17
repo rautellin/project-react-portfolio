@@ -123,6 +123,10 @@ h5{
   margin-bottom: 1rem;
 }
 
+.other-projects-links a{ 
+  margin-right: 0.5rem;
+}
+
 .blog-post-container img{
   width: 100%;
   object-fit: cover;
