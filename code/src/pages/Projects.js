@@ -52,7 +52,7 @@ export const Projects = ({ container, item, style }) => {
                 <article key={index}>
                   <h4>{project.title}</h4>
                   <p>{project.description}</p>
-                    <div className="other-image-links">
+                    <div className="other-projects-links">
                       <a target="_blank" rel="noopener noreferrer" href={project.url}><FontAwesomeIcon icon="globe" /></a>
                       <a target="_blank" rel="noopener noreferrer" href={project.github}><FontAwesomeIcon icon="code" /></a>
                     </div>
