@@ -7,13 +7,8 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav id="nav">
+      <nav id="nav" className="menu">
         <div className="nav-container">
-          <div className="hamburger">
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
-          </div>
           <div className="icon-container">
             <a id="top" href="#top">
               <FontAwesomeIcon id="topOne" icon="angle-up" />
@@ -28,10 +23,18 @@ export const Navbar = () => {
               <FontAwesomeIcon id="houseUser" icon="house-user" />
             </NavLink>
           </div>
-          <ul className="nav-links">
-            <li><NavLink to="/skills">Skills</NavLink></li>
-            <li><NavLink to="/projects">Projects</NavLink></li>
-            <li><NavLink to="/blog">Blog</NavLink></li>
+          <div className="hamburger" className="menu-btn">
+            <div className="line" className="btn-line"></div>
+            <div className="line" className="btn-line"></div>
+            <div className="line" className="btn-line"></div>
+          </div>
+          <div className="menu-branding">
+            <img className="portrait" src="" alt="" />
+          </div>
+          <ul className="menu-nav">
+            <li className="nav-item"><NavLink to="/skills" className="nav-link">Skills</NavLink></li>
+            <li className="nav-item"><NavLink to="/projects" className="nav-link">Projects</NavLink></li>
+            <li className="nav-item"><NavLink to="/blog" className="nav-link">Blog</NavLink></li>
           </ul>
         </div>
       </nav>
