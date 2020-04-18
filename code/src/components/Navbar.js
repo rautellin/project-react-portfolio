@@ -28,11 +28,8 @@ export const Navbar = () => {
             <div className="line" className="btn-line"></div>
             <div className="line" className="btn-line"></div>
           </div>
-          <div className="menu-branding">
-            <img className="portrait" src="" alt="" />
-          </div>
           <ul className="menu-nav">
-            <li className="nav-item"><NavLink to="/skills" className="nav-link">Skills</NavLink></li>
+            <li className="nav-item current"><NavLink to="/skills" className="nav-link">Skills</NavLink></li>
             <li className="nav-item"><NavLink to="/projects" className="nav-link">Projects</NavLink></li>
             <li className="nav-item"><NavLink to="/blog" className="nav-link">Blog</NavLink></li>
           </ul>

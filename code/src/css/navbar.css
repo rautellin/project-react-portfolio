@@ -10,7 +10,7 @@ nav{
   position: sticky;
   top: 0;
   height: 80px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .hamburger{
@@ -22,9 +22,11 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 3;
+  position: relative;
 }
 
-a{
+nav a{
   color: white;
 }
 
@@ -49,13 +51,6 @@ a{
   padding: 0.5rem;
 }
 
-.nav-links{
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
-}
-
-
 /* ARROW, ENVELOPE, HOME */
 .icon-container .svg-inline--fa.fa-w-10,
 .icon-container .svg-inline--fa.fa-w-16,
@@ -63,14 +58,23 @@ a{
   width: 1em;
 }
 
-.nav-links a{
+.menu-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 60%;
+}
+
+.nav-item a{
   font-size: 1.25rem;
   font-weight: 300;
   letter-spacing: 2px;
 }
 
-.nav-links a:hover{
-  font-weight: 400;
+.nav-item a:hover, 
+.nav-item.current a{
+  font-weight: 600;
 }
 
 #envelope #envelopeOpen,
@@ -91,7 +95,7 @@ a{
 @media screen and (max-width: 1000px){
 
   .menu-nav {
-    transform: translate(0, -100%, 0);
+    transform: translate3d(100%, 0, 0);
     transition: all 0.5s ease-out;
   }
 
@@ -108,10 +112,11 @@ a{
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
-    width: 50%;
+    width: 100%;
     background: rgb(189,136,89);
     background: linear-gradient(90deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
     position: absolute;
+    z-index: 1;
     top: 80px;
     right: 0; 
     min-height: calc(100vh - 80px);
@@ -125,35 +130,6 @@ a{
   .menu-nav.show li{
     position: relative;
     right: 5%;
-  }
-
-  .menu-branding{
-    visibility: hidden;
-    transform: translate(0, -100%, 0);
-    transition: all 0.5s ease-out;
-  }
-
-  .menu-branding.show{
-    visibility: visible;
-  }
-
-  .menu-branding.show{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
-    width: 50%;
-    background: rgb(189,136,89);
-    background: linear-gradient(90deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
-    position: absolute;
-    top: 80px;
-    left: 0;
-    min-height: calc(100vh - 80px);
-    opacity: 0.95;
-    -webkit-transform: translate3d(0,0,0); 
-    -moz-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
   }
   
   .icon-container{

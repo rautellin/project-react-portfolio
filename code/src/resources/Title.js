@@ -18,6 +18,7 @@ export const Title = () => {
       title.style.animation = `fill 1s ease forwards ${delay}s`
 
       arrow.style.transitionDelay = `3s`
+      arrow.style.webkitTransitionDelay = `3s`
       arrow.style.background = `rgba(233,193,155)`
       arrow.style.color = `white`
     }
