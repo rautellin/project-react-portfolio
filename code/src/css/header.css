@@ -105,5 +105,14 @@ path{
   100% { transform: scale(1,1)      translateY(0); }
 }
 
+@media screen and (max-width: 800px){
+  .header-container{
+    width: 100vw;
+  }
+  
+  .header-container svg{
+    width: 100vw;
+  }
+}
 
 
