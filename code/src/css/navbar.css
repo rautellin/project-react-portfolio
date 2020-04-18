@@ -94,6 +94,10 @@ nav a{
 
 @media screen and (max-width: 800px){
 
+  .nav-container {
+    width: 100vw;
+  }
+
   .menu-nav {
     transform: translate3d(100%, 0, 0);
     transition: all 0.5s ease-out;

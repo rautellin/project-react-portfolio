@@ -10,15 +10,15 @@ export const Navbar = () => {
       <nav id="nav" className="menu">
         <div className="nav-container">
           <div className="icon-container">
-            <a id="top" href="#top">
+            <a className="icon-item" id="top" href="#top">
               <FontAwesomeIcon id="topOne" icon="angle-up" />
               <FontAwesomeIcon id="topTwo" icon="angle-double-up" />
             </a>
-            <a id="envelope" href="#contact">
+            <a className="icon-item" id="envelope" href="#contact">
               <FontAwesomeIcon id="envelopeClose" icon="envelope" />
               <FontAwesomeIcon id="envelopeOpen" icon="envelope-open" />
             </a>
-            <NavLink id="home" href="#home" to="/about">
+            <NavLink className="icon-item" id="home" href="#home" to="/about">
               <FontAwesomeIcon id="house" icon="home" />
               <FontAwesomeIcon id="houseUser" icon="house-user" />
             </NavLink>

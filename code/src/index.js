@@ -13,6 +13,7 @@ const menuBtn = document.querySelector('.menu-btn')
 const menu = document.querySelector('.menu')
 const menuNav = document.querySelector('.menu-nav')
 const navItems = document.querySelectorAll('.nav-item')
+const iconItems = document.querySelectorAll('.icon-item')
 
 // INITIAL STATE
 
@@ -48,5 +49,13 @@ let closeMenu = () => {
 
 menuBtn.addEventListener('click', toggleMenu)
 menuBtn.addEventListener('touchstart', toggleMenu)
+
+navItems.forEach(item => {
+  item.addEventListener('click', closeMenu)
+});
+
+iconItems.forEach(item => {
+  item.addEventListener('click', closeMenu)
+});
 
 

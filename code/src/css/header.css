@@ -113,6 +113,28 @@ path{
   .header-container svg{
     width: 100vw;
   }
+
+  .logos {
+    height: 60px;
+    width: 60px;
+  }
+  
+  .logos svg {
+    height: 60px;
+    min-width: 60px;
+  }
+
+  h1{
+    font-size: 1.5rem;
+  }
+
+  .logos-container{
+    margin-bottom: 1.5rem;
+  }
+
+  #arrow{
+    margin-top: 1rem;
+  }
 }
 
 
