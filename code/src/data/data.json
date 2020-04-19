@@ -84,7 +84,7 @@
   },
   "projects": {
     "featured": [
-       {
+      {
         "title": "Movie app",
         "created": "April 2020",
         "description": "Multi-page React.js application showing data from themoviedb.org's API. The shown data is fetched from different API urls, the chosen url is based on to the user interaction.",
@@ -140,7 +140,7 @@
           "JSX"
         ]
       },
-     {
+      {
         "title": "Weather app",
         "created": "February 2020",
         "description": "Weather application showing data fetched from Open Weather Map's API. The application is showing current weather and a five day forecast based on the user's current location. The application also has a darkmode depending on the current time and other CSS animations.",
@@ -154,7 +154,7 @@
           "JSON"
         ]
       },
-       {
+      {
         "title": "Pizza bot",
         "created": "February 2020",
         "description": "Pizza application built with html, css and javascript. Depending on user input it displays an order confirmation with calculated price and time in a modal box.",
@@ -205,18 +205,11 @@
   "blog": {
     "posts": [
       {
-        "title": "Canadian Wanderlust",
+        "title": "Why coding is just like bodybuilding",
         "created": "April 2020",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "happythoughts.png",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "created": "April 2020",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus dolores provident? Consequatur deserunt autem assumenda dignissimos velit vero expedita.",
-        "image": "happythoughts.png",
-        "url": "https://www.canadianwanderlust.com"
+        "description": "At first, you might not draw a parallel between these two at all. Before getting confused, let me explain that there's a relationship between bodybuilding and programming. There's a lot more to it than you may think!",
+        "image": "blog.jpg",
+        "url": "https://medium.com/@nathalie.rautell/going-from-bodybuilding-to-programming-c0a448fddc4d"
       }
     ]
   }
