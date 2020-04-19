@@ -120,10 +120,11 @@ h5{
 
 .other-projects-container h3{ 
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .other-projects-container article{ 
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 #otherProjectsLinks a{ 
@@ -142,11 +143,18 @@ h5{
     width: 90%;
   }
 
+  #blog, #projects{
+    width: 90%;
+    margin: 0 auto 3rem auto;
+  }
+
 }
 
 @media (max-width: 500px){
 
-  .skills-container p{
+  .skills-container p,
+  #blog p,
+  #projects p{
     font-size: 1.25rem;
   }
 
@@ -164,12 +172,38 @@ h5{
     align-items: center;
   }
 
-  .knowledge-container h3{
+  .knowledge-container h3,
+  .blog-post-container h4{
     font-size: 1.55rem;
   }
 
   .knowledge-container li{
     font-size: 1.25rem;
+  }
+
+  #blog {
+    max-width: 90%;
+    margin: 0 auto 3rem auto;
+  }
+
+  #blog h2{
+    font-size: 1.5rem;
+  }
+
+  #projects h4{
+    font-size: 1.4rem;
+  }
+
+  #projects .other-projects-container h4{ 
+    font-size: 1.2rem;
+  }
+
+  #projects .other-projects-container p{ 
+    font-size: 1rem;
+  }
+
+  #projects .other-projects-container article{ 
+    margin-bottom: 1rem;
   }
 
 }
