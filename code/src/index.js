@@ -47,7 +47,7 @@ let closeMenu = () => {
 }
 
 menuBtn.addEventListener('click', toggleMenu)
-menuBtn.addEventListener('touchstart', toggleMenu)
+
 
 navItems.forEach(item => {
   item.addEventListener('click', closeMenu)

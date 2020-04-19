@@ -26,7 +26,7 @@ export const Skills = ({ style, container, item }) => {
         </motion.section>
         <motion.section variants={item}>
           <h2>Knowledge</h2>
-          <Article>
+          <Article className="knowledge-container">
             <ul>
               <h3>Code</h3>
               <li>HTML5</li>

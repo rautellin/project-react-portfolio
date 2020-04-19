@@ -23,10 +23,10 @@ export const Navbar = () => {
               <FontAwesomeIcon id="houseUser" icon="house-user" />
             </NavLink>
           </div>
-          <div className="hamburger" className="menu-btn">
-            <div className="line" className="btn-line"></div>
-            <div className="line" className="btn-line"></div>
-            <div className="line" className="btn-line"></div>
+          <div className="menu-btn">
+            <div className="btn-line"></div>
+            <div className="btn-line"></div>
+            <div className="btn-line"></div>
           </div>
           <ul className="menu-nav">
             <li className="nav-item current"><NavLink to="/skills" className="nav-link">Skills</NavLink></li>

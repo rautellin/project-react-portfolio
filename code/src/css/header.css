@@ -107,11 +107,11 @@ path{
 
 @media screen and (max-width: 800px){
   .header-container{
-    width: 100vw;
+    width: 90vw;
   }
   
   .header-container svg{
-    width: 100vw;
+    max-width: 90vw;
   }
 
   .logos {
@@ -137,4 +137,14 @@ path{
   }
 }
 
+@media screen and (max-width: 800px){
 
+  footer{
+    width: 100vw;
+  }
+
+  footer .logos-container{
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}

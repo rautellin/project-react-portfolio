@@ -12,7 +12,12 @@ export const About = ({ container, item, style }) => {
     padding: '1rem',
     margin: 0,
     display: 'flex',
-    alignItems: 'center'
+    alignItems: 'flex-start'
+  }
+
+  const emStyle = {
+    textAlign: 'end',
+    margin: '2rem'
   }
 
   return (
@@ -25,7 +30,7 @@ export const About = ({ container, item, style }) => {
         style={style}
       >
         <motion.section style={sectionStyle} variants={item}>
-          <motion.p variants={item}><em>{data.about.description}</em></motion.p>
+          <motion.p style={emStyle} variants={item}><em>{data.about.description}</em></motion.p>
         </motion.section>
       </motion.div>
     </>
