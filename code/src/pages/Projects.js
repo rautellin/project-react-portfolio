@@ -25,15 +25,19 @@ export const Projects = ({ container, item, style }) => {
               <>
                 <article key={index}>
                   <div className="project-image">
-                    <img src={`./images/${project.image}`} alt="" />
+                    <a target="_blank" rel="noopener noreferrer" href={project.github}>
+                      <img src={`./images/${project.image}`} alt="" />
+                    </a>
                     <div className="project-image-links">
-                      <a target="_blank" rel="noopener noreferrer" href={project.url}><FontAwesomeIcon icon="globe" /></a>
-                      <a target="_blank" rel="noopener noreferrer" href={project.github}><FontAwesomeIcon icon="code" /></a>
+                      <a target="_blank" rel="noopener noreferrer" href={project.url}><FontAwesomeIcon icon="laptop" /></a>
+                      <a target="_blank" rel="noopener noreferrer" href={project.github}><FontAwesomeIcon icon="laptop-code" /></a>
                     </div>
                   </div>
-                  <h5>{project.created}</h5>
-                  <h4>{project.title}</h4>
-                  <p>{project.description}</p>
+                  <a target="_blank" rel="noopener noreferrer" href={project.github}>
+                    <h5>{project.created}</h5>
+                    <h4>{project.title}</h4>
+                    <p>{project.description} <FontAwesomeIcon id="angleRight" icon="angle-right" /><FontAwesomeIcon id="angleDoubleRight" icon="angle-double-right" /></p>
+                  </a>
                   <ul>
                     {project.tech.map((item, index) => (
                       <>
@@ -50,12 +54,9 @@ export const Projects = ({ container, item, style }) => {
             {otherProjects.map((project, index) => (
               <>
                 <article key={index}>
-                  <h4>{project.title}</h4>
-                  <p>{project.description}</p>
-                    <div id="otherProjectsLinks">
-                      <a target="_blank" rel="noopener noreferrer" href={project.url}><FontAwesomeIcon icon="globe" /></a>
-                      <a target="_blank" rel="noopener noreferrer" href={project.github}><FontAwesomeIcon icon="code" /></a>
-                    </div>
+                  <a target="_blank" rel="noopener noreferrer" href={project.github}><h4>{project.title}</h4>
+                    <p>{project.description} <FontAwesomeIcon id="angleRight" icon="angle-right" /><FontAwesomeIcon id="angleDoubleRight" icon="angle-double-right" /></p>
+                  </a>
                   <ul>
                     {project.tech.map((item, index) => (
                       <>

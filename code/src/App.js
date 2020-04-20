@@ -10,9 +10,9 @@ import { Projects } from './pages/Projects'
 import { Blog } from './pages/Blog'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faAngleDoubleRight, faHome, faHouseUser, faGlobe, faCode } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faAngleDoubleRight, faAngleRight, faHome, faHouseUser, faLaptop, faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faAngleDoubleRight, faHome, faHouseUser, faGlobe, faCode)
+library.add(fab, faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faAngleDoubleRight, faAngleRight, faHome, faHouseUser, faLaptop, faLaptopCode)
 
 const pageStyle = {
   position: 'relative'

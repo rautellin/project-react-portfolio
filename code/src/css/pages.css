@@ -46,11 +46,20 @@ h5{
 
 #projects a, #blog a{
   color: white;
-  margin-right: 1rem;
 }
 
-#projects a:hover, #blog a:hover{
+#projects a:hover svg, #blog a:hover svg{
   color: rgba(233,193,155,1);
+}
+
+#projects a:hover #angleDoubleRight{
+  display: inline;
+}
+
+#projects a:hover #angleRight,
+#angleDoubleRight
+{
+  display: none;
 }
 
 #projects li{
@@ -114,6 +123,10 @@ h5{
   visibility: visible;
 }
 
+.project-image-links svg{
+  margin-right: 1rem;
+}
+
 .other-projects-container { 
   margin-bottom: 3rem;
 }
@@ -138,6 +151,11 @@ h5{
 
 
 @media screen and (max-width: 800px){
+
+  .project-image:hover::before,
+  .project-image-links {
+    display: none;
+  }
 
   .skills-container {
     width: 90%;
