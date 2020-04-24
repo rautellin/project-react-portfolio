@@ -4,12 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../css/header.css"
 import { Arrow } from "../resources/Arrow"
 import data from '../data/data'
+import { useMediaQuery } from '../hooks/useMediaQuery'
 
 export const Header = () => {
 
+  const isMobile = useMediaQuery('(min-width: 500px)')
+
   const hero = {
-    backgroundImage: 'url(' + data.about.hero + ')',
-    backgroundSize: 'cover',
+    backgroundImage: isMobile ? 'url(' + data.about.hero + ')' : 'url(' + data.about.mobilehero + ')',
+    backgroundSize: 'cover'
   }
 
 
