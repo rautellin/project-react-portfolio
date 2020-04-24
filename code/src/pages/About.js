@@ -6,7 +6,6 @@ import data from '../data/data'
 export const About = ({ container, item, style }) => {
 
   const sectionStyle = {
-    backgroundImage: 'url(' + data.about.image + ')',
     backgroundSize: 'cover',
     minHeight: '600px',
     height: 'calc(100vh - 70px - 200px)',
@@ -25,7 +24,7 @@ export const About = ({ container, item, style }) => {
         exit={container}
         style={style}
       >
-        <motion.section style={sectionStyle} variants={item} className='about'>
+        <motion.section style={sectionStyle} variants={item} className='about' id='background'>
           <motion.div variants={item}>
             <p>You either find me typing on a keyboard or at the gym somewhere between the weights. So basically I'm always building something, if not websites and applications then physical strength. </p>
             <p>My love for code goes way back, and after years apart we’re now finally living happily ever after. However I'm still in the process of deciding which programming language is my favorite. I'm a bit indecisive. But currently I'm enjoying JavaScript, or more exact React.js. </p>

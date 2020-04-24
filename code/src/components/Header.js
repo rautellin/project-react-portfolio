@@ -8,7 +8,6 @@ import data from '../data/data'
 export const Header = () => {
 
   const hero = {
-    backgroundImage: 'url(' + data.about.hero + ')',
     backgroundSize: 'cover',
   }
 

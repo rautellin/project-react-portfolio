@@ -183,6 +183,15 @@ h5{
 
 @media (max-width: 500px){
 
+  .about p{
+    font-size: 17px;
+  }
+
+  .about div{
+    padding: 0;
+    justify-content: flex-start;
+  }
+
   .skills-container p,
   #blog p,
   #projects p{
