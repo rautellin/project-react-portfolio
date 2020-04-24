@@ -2,18 +2,22 @@ import React from 'react'
 import { motion } from "framer-motion"
 import "../css/pages.css"
 import data from '../data/data'
+import { useMediaQuery } from '../hooks/useMediaQuery'
 
 export const About = ({ container, item, style }) => {
 
+  const isMobile = useMediaQuery('(min-width: 500px)')
+
   const sectionStyle = {
+    backgroundImage: 'url(' + data.about.image + ')',
     backgroundSize: 'cover',
     minHeight: '600px',
     height: 'calc(100vh - 70px - 200px)',
     padding: '1rem',
     margin: 0,
-    display: 'flex'
+    display: 'flex',
+    backgroundImage: isMobile ? 'url(' + data.about.image + ')' : 'url(' + data.about.mobileimage + ')',
   }
-
 
   return (
     <>

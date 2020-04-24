@@ -70,26 +70,4 @@ const parallaxScroll = () => {
 window.addEventListener("scroll", parallaxScroll)
 
 
-// BACKGROUND IMAGE DEPENDING ON SCREENSIZE
 
-const WindowWidth = document.documentElement.clientWidth
-
-const background = document.getElementById('background')
-
-if (WindowWidth < 500) {
-  //It is a small screen
-  background.style.backgroundImage = 'url(' + data.about.mobileimage + ')';
-} else {
-  //It is a big screen or desktop
-  background.style.backgroundImage = 'url(' + data.about.image + ')';
-}
-
-const hero = document.getElementById('top')
-
-if (WindowWidth < 500) {
-  //It is a small screen
-  hero.style.backgroundImage = 'url(' + data.about.mobilehero + ')';
-} else {
-  //It is a big screen or desktop
-  hero.style.backgroundImage = 'url(' + data.about.hero + ')';
-}
