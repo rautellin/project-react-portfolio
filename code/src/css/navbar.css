@@ -1,7 +1,6 @@
 nav{
   width: 100%;
-  background: rgb(189,136,89);
-  background: linear-gradient(90deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
+  background: rgb(80, 141, 161);
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   display: flex;
@@ -40,9 +39,9 @@ nav a{
 .icon-container a{
   border-radius: 50%;
   margin-right: 0.75rem;
-  background: #C9976A;
-  box-shadow: inset -4px 4px 7px #ab805a, 
-              inset 4px -4px 7px #e7ae7a;
+  background: #508da1;
+  box-shadow: inset -4px 4px 7px #447889, 
+              inset 4px -4px 7px #5ca2b9;
 }
 
 .icon-container svg{
@@ -117,8 +116,7 @@ nav a{
     justify-content: space-evenly;
     align-items: flex-end;
     width: 100%;
-    background: rgb(189,136,89);
-    background: linear-gradient(90deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
+    background: rgb(80, 141, 161);
     position: absolute;
     z-index: 1;
     top: 80px;

@@ -12,6 +12,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faAngleDoubleRight, faAngleRight, faHome, faHouseUser, faLaptop, faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 
+
 library.add(fab, faEnvelope, faEnvelopeOpen, faAngleDown, faAngleUp, faAngleDoubleUp, faAngleDoubleRight, faAngleRight, faHome, faHouseUser, faLaptop, faLaptopCode)
 
 const pageStyle = {

@@ -11,7 +11,7 @@
 }
 
 *::selection{
-  background: rgba(233,193,155,1);
+  background: rgba(80, 141, 161, 0.5);
 }
 
 html{
@@ -23,7 +23,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   color: white;
-  background: rgb(79, 79, 82);
+  background: rgb(179, 185, 191);
 }
 
 main{

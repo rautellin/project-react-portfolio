@@ -19,7 +19,7 @@ export const Title = () => {
 
       arrow.style.transitionDelay = `3s`
       arrow.style.webkitTransitionDelay = `3s`
-      arrow.style.background = `rgba(233,193,155)`
+      arrow.style.background = `rgb(179, 149, 174)`
       arrow.style.color = `white`
     }
 

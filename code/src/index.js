@@ -57,4 +57,13 @@ iconItems.forEach(item => {
   item.addEventListener('click', closeMenu)
 });
 
+const parallax = document.querySelectorAll(".top");
 
+const parallaxScroll = () => {
+  let offset = window.pageYOffset;
+  parallax.forEach((prllx) => {
+    prllx.style.backgroundPositionY = (offset - prllx.offsetTop) * 0.7 + "px";
+  })
+}
+
+window.addEventListener("scroll", parallaxScroll)

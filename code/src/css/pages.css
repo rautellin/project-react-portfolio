@@ -5,10 +5,12 @@ section {
 
 h2{
   font-family: 'Lato', sans-serif;
-  background: rgb(189,136,89);
-  background: linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
+  background: rgba(80, 141, 161, 0.5);
+  border-radius: 25px 0px 25px 0px;
+  -moz-border-radius: 25px 0px 25px 0px;
+  -webkit-border-radius: 25px 0px 25px 0px;
   width: max-content;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   font-size: 1.75rem;
   text-transform: uppercase;
   margin: 3rem auto 1rem auto;
@@ -16,15 +18,26 @@ h2{
 
 h3, h4, h5 {
   text-transform: uppercase;
-  color: rgba(233,193,155,1);
+  color: rgba(80, 141, 161, 0.5);
   font-family: 'Lato', sans-serif;
-  background: -webkit-linear-gradient(31deg, rgba(189,136,89,1) 0%, rgba(233,193,155,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 h5{
   font-size: 1rem;
+}
+
+.about div{
+  padding: 0 0 0 40%;
+  width: 100%;
+  text-align: end;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about p{
+  margin-bottom: 2rem;
 }
 
 .skills-container ul{
