@@ -11,7 +11,7 @@ export const SmallTitle = () => {
       arrow.style.webkitTransitionDelay = `3s`
       arrow.style.mozTransitionDelay = `3s`
       arrow.style.oTransitionDelay = `3s`
-      arrow.style.background = `rgb(179, 149, 174)`
+      arrow.style.opacity = 1
       arrow.style.color = `white`
     }
 

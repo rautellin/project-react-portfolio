@@ -9,7 +9,7 @@ export const Title = () => {
       const arrow = document.getElementById('visible')
       arrow.style.transitionDelay = `3s`
       arrow.style.webkitTransitionDelay = `3s`
-      arrow.style.background = `rgb(179, 149, 174)`
+      arrow.style.opacity = 1
       arrow.style.color = `white`
     }
 
