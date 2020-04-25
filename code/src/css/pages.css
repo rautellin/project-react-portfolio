@@ -202,15 +202,28 @@ h5{
 
 @media (max-width: 500px){
 
+  body{
+    background: #73A6B7;
+  }
+
+  h2{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
   .about div{
     padding: 0;
-    justify-content: space-between;
+    justify-content: flex-start;
+  }
+
+  .about p{
+    margin-bottom: 1rem;
   }
 
   .skills-container p,
   #blog p,
   #projects p{
-    font-size: 1.25rem;
+    font-size: 17px;
   }
 
   .knowledge-container{
@@ -259,6 +272,11 @@ h5{
 
   #projects .other-projects-container article{ 
     margin-bottom: 1rem;
+  }
+
+  #projects li{ 
+    font-size: 15px;
+    min-width: 77px;
   }
 
 }
