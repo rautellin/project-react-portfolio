@@ -12,7 +12,7 @@ export const Header = () => {
   const isMobile = useMediaQuery('(max-width: 500px)')
 
   const hero = {
-    backgroundImage: isMobile ? 'url(' + data.about.hero + ')' : 'url(' + data.about.mobilehero + ')',
+    backgroundImage: isMobile ? 'url(' + data.about.mobilehero + ')' : 'url(' + data.about.hero + ')',
     backgroundSize: 'cover'
   }
 
