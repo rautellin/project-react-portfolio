@@ -1,6 +1,6 @@
 import React from "react"
 import { Title } from "../resources/Title"
-import { SmallerTitle } from "../resources/SmallerTitle"
+import { SmallTitle } from "../resources/SmallTitle"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../css/header.css"
 import { Arrow } from "../resources/Arrow"
@@ -49,9 +49,9 @@ export const Header = () => {
             </a>
           </div>
           <h1>Portfolio: <span>{data.about.name}</span></h1>
-          {isMobile ? <SmallerTitle /> : <Title />}
+          {isMobile ? <SmallTitle /> : <Title />}
         </div>
-        {isMobile ? null : <Arrow />}
+        <Arrow />
 
       </header>
     </>
