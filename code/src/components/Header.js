@@ -21,7 +21,7 @@ export const Header = () => {
   const parallax = document.querySelectorAll(".parallax");
 
   const parallaxScroll = () => {
-    if (isMobile) {
+    if (!isMobile) {
       let offset = window.pageYOffset;
       parallax.forEach((prllx) => {
         prllx.style.backgroundPositionY = (offset - prllx.offsetTop) * 0.7 + "px";
