@@ -92,7 +92,10 @@ path{
   background: rgb(179, 149, 174);
   opacity: 0;
   visibility: visible;
-  transition: opacity 0.5s ease-in, color 0.5s ease-in, ;
+  transition: opacity 0.5s ease-in, color 0.5s ease-in ;
+  -o-transition: opacity 0.5s ease-in, color 0.5s ease-in ;
+  -moz-transition: opacity 0.5s ease-in, color 0.5s ease-in ;
+  -webkit-transition: opacity 0.5s ease-in, color 0.5s ease-in ;
 }
 
 @keyframes bounce {
