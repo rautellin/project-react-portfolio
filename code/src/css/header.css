@@ -77,6 +77,11 @@ path{
 
 /* ARROW ANIMATION */
 
+#arrow {
+  display: flex;
+  justify-content: center;
+}
+
 #arrow svg, #mobilearrow svg{
   align-self: flex-end;
   animation: bounce 2s 5 cubic-bezier(0.280, 0.840, 0.420, 1);
@@ -171,7 +176,6 @@ path{
   }
 
   #mobilearrow svg{
-    background: rgb(179, 149, 174);
     padding: 0.25rem;
   }
 

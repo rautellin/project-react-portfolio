@@ -18,10 +18,12 @@ export const SmallTitle = () => {
 
   const arrow = {
     hidden: {
-      opacity: 0
+      opacity: 0,
+      backgroundColor: "rgba(179, 149, 174, 0)"
     },
     visible: {
-      opacity: 1
+      opacity: 1,
+      backgroundColor: "rgba(179, 149, 174, 1)"
     }
   }
 
@@ -171,6 +173,7 @@ export const SmallTitle = () => {
             fill="rgba(255, 255, 255, 1)"
             transition={{
               default: { delay: 3, duration: 2, ease: "easeInOut" },
+              backgroundColor: { delay: 1.2, duration: 2, ease: [1, 0, 0.8, 1] }
             }} />
         </motion.svg>
       </a>
