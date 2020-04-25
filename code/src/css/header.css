@@ -104,6 +104,14 @@ path{
 }
 
 @media screen and (max-width: 800px){
+
+  .parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
   .header-container{
     width: 90vw;
   }
@@ -135,14 +143,3 @@ path{
   }
 }
 
-@media screen and (max-width: 800px){
-
-  footer{
-    width: 100vw;
-  }
-
-  footer .logos-container{
-    justify-content: center;
-    margin-top: 1rem;
-  }
-}

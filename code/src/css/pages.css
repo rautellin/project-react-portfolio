@@ -13,7 +13,7 @@ h2{
   padding: 0.5rem 2rem;
   font-size: 1.75rem;
   text-transform: uppercase;
-  margin: 3rem auto 1rem auto;
+  margin: 3rem auto 2rem auto;
 }
 
 h3, h4, h5 {
@@ -156,7 +156,7 @@ h5{
 }
 
 .other-projects-container { 
-  margin-bottom: 3rem;
+  margin: 5rem 0 3rem 0;
 }
 
 .other-projects-container h3{ 
@@ -180,6 +180,10 @@ h5{
 
 @media screen and (max-width: 800px){
 
+  #about p, #blog p, #projects p{
+    font-size: 17px;
+  }
+
   .project-image:hover::before,
   .project-image-links {
     display: none;
@@ -197,10 +201,6 @@ h5{
 }
 
 @media (max-width: 500px){
-
-  .about p, #blog p{
-    font-size: 17px;
-  }
 
   .about div{
     padding: 0;

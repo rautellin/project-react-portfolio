@@ -58,7 +58,10 @@ iconItems.forEach(item => {
   item.addEventListener('click', closeMenu)
 });
 
-const parallax = document.querySelectorAll(".top");
+
+// PARALLAX SCROLL
+
+const parallax = document.querySelectorAll(".parallax");
 
 const parallaxScroll = () => {
   let offset = window.pageYOffset;

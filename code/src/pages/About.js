@@ -28,7 +28,7 @@ export const About = ({ container, item, style }) => {
         exit={container}
         style={style}
       >
-        <motion.section style={sectionStyle} variants={item} className='about' id='background'>
+        <motion.section style={sectionStyle} variants={item} className='about' id='about'>
           <motion.div variants={item}>
             <p>You either find me typing on a keyboard or at the gym somewhere between the weights. So basically I'm always building something, if not websites and applications then physical strength. </p>
             <p>My love for code goes way back, and after years apart our roads crossed again. I finally realized its ability to stimulate my mind and curiosity and now we’re finally living happily ever after. <br /><br />

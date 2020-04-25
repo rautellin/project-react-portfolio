@@ -18,7 +18,7 @@ export const Header = () => {
 
   return (
     <>
-      <header id="top" style={hero} className="top">
+      <header id="top" style={hero} className="top parallax">
         <div className="header-container">
           <div className="logos-container">
             <a className="logos" target="_blank" rel="noopener noreferrer" role="button" aria-pressed="false" tabIndex="0" href={data.about.social[0].url}>

@@ -19,6 +19,7 @@ export const Skills = ({ style, container, item }) => {
         exit={container}
         style={style}
         className='skills-container'
+        id='skills'
       >
         <motion.section variants={item}>
           <h2>Tech</h2>

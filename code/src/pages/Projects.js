@@ -50,7 +50,7 @@ export const Projects = ({ container, item, style }) => {
             ))}
           </div>
           <div className="other-projects-container">
-            <h3>Other projects</h3>
+            <h2>Other projects</h2>
             {otherProjects.map((project, index) => (
               <>
                 <article key={index}>
