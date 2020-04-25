@@ -213,11 +213,12 @@ h5{
 
   .about div{
     padding: 0;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 
   .about p{
     margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px rgba(116,168,185,0.41);
   }
 
   .skills-container p,
