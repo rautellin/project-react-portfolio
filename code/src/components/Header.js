@@ -51,7 +51,8 @@ export const Header = () => {
           <h1>Portfolio: <span>{data.about.name}</span></h1>
           {isMobile ? <SmallerTitle /> : <Title />}
         </div>
-        <Arrow />
+        {isMobile ? null : <Arrow />}
+
       </header>
     </>
   )
