@@ -23,10 +23,11 @@ export const Blog = ({ container, item, style }) => {
             {blogPosts.map((post, index) => (
               <>
                 <article key={index}>
-                  <img src={`./images/${post.image}`} alt="" />
-                  <h5>{post.created}</h5>
-                  <h4>{post.title}</h4>
-                  <p>{post.description}<a target="_blank" rel="noopener noreferrer" href={post.url}><FontAwesomeIcon icon="angle-double-right" /></a></p>
+                  <a target="_blank" rel="noopener noreferrer" href={post.url}>
+                    <img src={`./images/${post.image}`} alt="" />
+                    <h5>{post.created}</h5>
+                    <h4>{post.title}</h4>
+                    <p>{post.description}<FontAwesomeIcon id="angleRight" icon="angle-right" /><FontAwesomeIcon id="angleDoubleRight" icon="angle-double-right" /></p></a>
                 </article>
               </>
             ))}
