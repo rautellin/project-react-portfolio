@@ -3,7 +3,6 @@ import { Title } from "../resources/Title"
 import { SmallTitle } from "../resources/SmallTitle"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../css/header.css"
-import { Arrow } from "../resources/Arrow"
 import data from '../data/data'
 import { useMediaQuery } from '../hooks/useMediaQuery'
 
@@ -51,7 +50,6 @@ export const Header = () => {
           <h1>Portfolio: <span>{data.about.name}</span></h1>
           {isMobile ? <SmallTitle /> : <Title />}
         </div>
-        <Arrow />
 
       </header>
     </>

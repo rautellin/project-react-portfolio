@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Arrow } from "./Arrow"
 
 export const Title = () => {
 
@@ -162,6 +163,7 @@ export const Title = () => {
           />
         </motion.svg>
       </div>
+      <Arrow />
     </>
   )
 }

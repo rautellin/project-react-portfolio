@@ -3,22 +3,6 @@ import { motion } from 'framer-motion'
 
 export const SmallTitle = () => {
 
-  document.addEventListener('DOMContentLoaded', () => {
-
-    const animateSGV = () => {
-      const arrow = document.getElementById('visible')
-      arrow.style.transitionDelay = `3s`
-      arrow.style.webkitTransitionDelay = `3s`
-      arrow.style.mozTransitionDelay = `3s`
-      arrow.style.oTransitionDelay = `3s`
-      arrow.style.opacity = 1
-      arrow.style.color = `white`
-    }
-
-    animateSGV('title', 0, 0.25)
-
-  }, false)
-
   const icon = {
     hidden: {
       opacity: 0,
@@ -29,6 +13,15 @@ export const SmallTitle = () => {
       opacity: 1,
       pathLength: 1,
       fill: "rgba(255, 255, 255, 1)"
+    }
+  }
+
+  const arrow = {
+    hidden: {
+      opacity: 0
+    },
+    visible: {
+      opacity: 1
     }
   }
 
@@ -162,8 +155,25 @@ export const SmallTitle = () => {
               fill: { delay: 1.2, duration: 2, ease: [1, 0, 0.8, 1] }
             }}
           />
+
         </motion.svg>
       </div>
+      <a id="mobilearrow" href="#nav" className="arrow-container">
+        <motion.svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 32 32"
+          className="item">
+          <motion.path
+            d="M14.77,23.795L5.185,14.21c-0.879-0.879-0.879-2.317,0-3.195l0.8-0.801c0.877-0.878,2.316-0.878,3.194,0  l7.315,7.315l7.316-7.315c0.878-0.878,2.317-0.878,3.194,0l0.8,0.801c0.879,0.878,0.879,2.316,0,3.195l-9.587,9.585  c-0.471,0.472-1.104,0.682-1.723,0.647C15.875,24.477,15.243,24.267,14.77,23.795z"
+            variants={arrow}
+            initial="hidden"
+            animate="visible"
+            fill="rgba(255, 255, 255, 1)"
+            transition={{
+              default: { delay: 3, duration: 2, ease: "easeInOut" },
+            }} />
+        </motion.svg>
+      </a>
     </>
   )
 }
