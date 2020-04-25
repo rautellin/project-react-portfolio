@@ -6,7 +6,7 @@ import { useMediaQuery } from '../hooks/useMediaQuery'
 
 export const About = ({ container, item, style }) => {
 
-  const isMobile = useMediaQuery('(min-width: 500px)')
+  const isMobile = useMediaQuery('(max-width: 500px)')
 
   const sectionStyle = {
     backgroundImage: 'url(' + data.about.image + ')',
@@ -16,7 +16,8 @@ export const About = ({ container, item, style }) => {
     padding: '1rem',
     margin: 0,
     display: 'flex',
-    backgroundImage: isMobile ? 'url(' + data.about.image + ')' : 'url(' + data.about.mobileimage + ')',
+    // eslint-disable-next-line 
+    backgroundImage: isMobile ? 'url(' + data.about.mobileimage + ')' : 'url(' + data.about.image + ')',
   }
 
   return (

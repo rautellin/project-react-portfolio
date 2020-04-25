@@ -9,7 +9,7 @@ import { useMediaQuery } from '../hooks/useMediaQuery'
 
 export const Header = () => {
 
-  const isMobile = useMediaQuery('(min-width: 500px)')
+  const isMobile = useMediaQuery('(max-width: 500px)')
 
   const hero = {
     backgroundImage: isMobile ? 'url(' + data.about.hero + ')' : 'url(' + data.about.mobilehero + ')',
