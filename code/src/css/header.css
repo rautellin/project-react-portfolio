@@ -90,6 +90,7 @@ path{
 
 #visible {
   background: transparent;
+  visibility: visible;
   transition: background 0.5s ease-in, color 0.5s ease-in, ;
 }
 
