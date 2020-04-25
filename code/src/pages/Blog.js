@@ -18,7 +18,7 @@ export const Blog = ({ container, item, style }) => {
         style={style}
       >
         <motion.section id="blog" variants={item}>
-          <h2>My thoughts about code</h2>
+          <h2>My thoughts</h2>
           <div className="blog-post-container">
             {blogPosts.map((post, index) => (
               <>
