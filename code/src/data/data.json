@@ -54,7 +54,8 @@
         "React.js",
         "React Native",
         "Git",
-        "Node.js"
+        "Node.js",
+        "Redux"
       ],
       "toolbox": [
         "Visual Studio Code",
