@@ -45,45 +45,46 @@
       "JSON",
       "Cross browsing"
     ],
-    "knowledge": [
-      {
-        "code": [
-          "HTML5",
-          "Semantic-UI",
-          "CSS3",
-          "JavaScript ES6",
-          "React.js",
-          "React Native",
-          "Git",
-          "Node.js"
-        ]
-      },
-      {
-        "toolbox": [
-          "Visual Studio Code",
-          "Npm",
-          "Git",
-          "Postman",
-          "Expo",
-          "Chrome DevTools",
-          "React Developer Tool for Chrome",
-          "Firefox Developer Tool",
-          "Firefox Developer Edition",
-          "Xcode",
-          "Android Studio"
-        ]
-      },
-      {
-        "other": [
-          "Insuresec",
-          "Inca",
-          "Scrive",
-          "SalesForce",
-          "eTrack",
-          "Vergic"
-        ]
-      }
-    ]
+    "knowledge": {
+      "code": [
+        "HTML5",
+        "Semantic-UI",
+        "CSS3",
+        "JavaScript ES6",
+        "React.js",
+        "React Native",
+        "Git",
+        "Node.js"
+      ],
+      "toolbox": [
+        "Visual Studio Code",
+        "Slack",
+        "Npm",
+        "Github",
+        "Postman",
+        "Expo",
+        "Chrome DevTools",
+        "React Developer Tool",
+        "Firefox Developer Tool",
+        "Firefox Developer Edition",
+        "Xcode",
+        "Android Studio",
+        "JIRA",
+        "Figma"
+      ],
+      "other": [
+        "Inca",
+        "Scrive",
+        "SalesForce",
+        "eTrack",
+        "Vergic",
+        "AML",
+        "Insuresec",
+        "Customer Experience",
+        "eCommerce",
+        "POS"
+      ]
+    }
   },
   "projects": {
     "featured": [

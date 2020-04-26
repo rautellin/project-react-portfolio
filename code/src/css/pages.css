@@ -44,6 +44,10 @@ h5{
 
 .skills-container ul{
   margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
 }
 
 .skills-container p{
