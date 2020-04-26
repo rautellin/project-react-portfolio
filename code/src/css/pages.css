@@ -193,6 +193,24 @@ h5{
     width: 90%;
   }
 
+  .knowledge-container{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .knowledge-container ul{ 
+    min-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-container ul{
+    width: auto;
+  }
+
   #blog, #projects{
     width: 90%;
     margin: 0 auto 3rem auto;
@@ -227,22 +245,9 @@ h5{
 
   .skills-container p,
   #blog p,
-  #projects p{
+  #projects p,
+  #skills li{
     font-size: 17px;
-  }
-
-  .knowledge-container{
-    max-width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .knowledge-container ul{ 
-    min-width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .knowledge-container h3,
@@ -283,5 +288,7 @@ h5{
     font-size: 15px;
     min-width: 77px;
   }
+
+  
 
 }
