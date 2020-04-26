@@ -17,10 +17,10 @@ export const Header = () => {
 
   // PARALLAX SCROLL
 
-  const parallax = document.querySelectorAll(".parallax");
+  const parallax = document.querySelectorAll(".top");
 
   const parallaxScroll = () => {
-    if (!isMobile) {
+    if (isMobile === false) {
       let offset = window.pageYOffset;
       parallax.forEach((prllx) => {
         prllx.style.backgroundPositionY = (offset - prllx.offsetTop) * 0.7 + "px";
@@ -34,7 +34,7 @@ export const Header = () => {
 
   return (
     <>
-      <header id="top" style={hero} className="top parallax">
+      <header id="top" style={hero} className="top">
         <div className="header-container">
           <div className="logos-container">
             <a className="logos" target="_blank" rel="noopener noreferrer" role="button" aria-pressed="false" tabIndex="0" href={data.about.social[0].url}>
