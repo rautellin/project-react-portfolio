@@ -218,7 +218,11 @@ h5{
 
   .about p{
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.43);
+  }
+
+  .about span{
+    background-image: linear-gradient(-100deg, rgba(80, 141, 161, 0.2), rgba(80, 141, 161, 0.5) 85%, rgba(80, 141, 161, 0.1));
+    padding: 1px;
   }
 
   .skills-container p,
