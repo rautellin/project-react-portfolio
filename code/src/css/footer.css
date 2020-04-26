@@ -71,3 +71,11 @@ footer h4{
   }
 }
 
+@media screen and (max-width: 500px){
+
+  footer p, footer a{
+    font-size: 20px;
+  }
+
+}
+
