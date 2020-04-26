@@ -113,7 +113,7 @@ nav a{
   .menu-nav.show{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: flex-end;
     width: 100%;
     background: rgb(80, 141, 161);
@@ -135,6 +135,7 @@ nav a{
   .menu-nav.show li{
     position: relative;
     right: 30px;
+    margin: 2rem 0;
   }
   
   .icon-container{
