@@ -171,6 +171,10 @@ path{
 
 @media screen and (max-width: 500px){
 
+  header{
+    background-attachment: scroll;
+  }
+
   h1 span{
     display: block;
   }
