@@ -92,6 +92,34 @@
   "projects": {
     "featured": [
       {
+        "title": "Pomodoro App",
+        "created": "April 2020",
+        "description": "React Native application with a countdown pomodoro timer. The chosen session length is based on the user interaction. The app is mainly styled with styled components.",
+        "image": "pomodoro.png",
+        "github": "https://github.com/rautellin/project-react-native-app",
+        "url": "https://github.com/rautellin/project-react-native-app",
+        "tech": [
+          "React Native",
+          "React.js",
+          "CSS3",
+          "JSX"
+        ]
+      },
+      {
+        "title": "Portfolio webpage",
+        "created": "April 2020",
+        "description": "Multi-page React.js application showing data from a json file. The hero is also included with a svg animation",
+        "image": "portfolio.png",
+        "github": "https://github.com/rautellin/project-react-portfolio",
+        "url": "https://nathalierautell.com/",
+        "tech": [
+          "React.js",
+          "JSON",
+          "CSS3",
+          "JSX"
+        ]
+      },
+      {
         "title": "Movie app",
         "created": "April 2020",
         "description": "Multi-page React.js application showing data from themoviedb.org's API. The shown data is fetched from different API urls, the chosen url is based on to the user interaction.",
