@@ -99,7 +99,7 @@ path{
 }
 
 #visible {
-  background: rgb(179, 149, 174);
+  background: rgb(231, 193, 217);
   opacity: 0;
   visibility: visible;
   transition: opacity 0.5s ease-in;
