@@ -30,45 +30,45 @@
   "skills": {
     "skillmessage": "A short write-up of your skills to show off to employers",
     "tech": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ES6",
-      "JSX",
+      "JavaScript ES6",
       "React.js",
       "React Native",
       "Redux",
       "Node.js",
       "Mongo DB",
-      "Web accessibility",
+      "JSX",
       "API",
       "JSON",
+      "HTML",
+      "CSS",
+      "Web accessibility",
       "Cross browsing"
     ],
     "knowledge": {
       "code": [
-        "HTML5",
-        "Semantic-UI",
-        "CSS3",
         "JavaScript ES6",
         "React.js",
         "React Native",
-        "Git",
+        "Redux",
         "Node.js",
-        "Redux"
+        "HTML5",
+        "Semantic-UI",
+        "CSS3",
       ],
       "toolbox": [
         "Visual Studio Code",
-        "Slack",
+        "Node.js",
         "Npm",
+        "Git",
         "Github",
-        "Postman",
         "Expo",
         "Chrome DevTools",
         "React Developer Tool",
         "Redux Toolkit",
         "Firefox Developer Edition",
         "Xcode",
+        "Slack",
+        "Postman",
         "Android Studio",
         "JIRA",
         "Figma"
@@ -85,7 +85,8 @@
         "Customer experience",
         "Business banking",
         "eCommerce",
-        "POS"
+        "POS",
+        "LEAN"
       ]
     }
   },
