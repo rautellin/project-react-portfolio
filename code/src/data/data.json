@@ -94,6 +94,34 @@
   "projects": {
     "featured": [
       {
+        "title": "To-do App",
+        "created": "May 2020",
+        "description": "A to-do app with different functionalities such as adding tasks with a category and a due date. The app can remove all tasks or individually and list different tasks depending on the category. Everthing stored in a localstorage.",
+        "image": "todos.png",
+        "github": "https://github.com/rautellin/project-todos",
+        "url": "https://rautellin-todos.netlify.app/",
+        "tech": [
+          "Redux",
+          "React.js",
+          "Styled components",
+          "JSX"
+        ]
+      },
+      {
+        "title": "Trivia game App",
+        "created": "May 2020",
+        "description": "Trivia game built with redux and react.js with timer and summary showing different results depending on the users answers.",
+        "image": "quiz.png",
+        "github": "https://github.com/rautellin/project-redux-quiz",
+        "url": "https://rautellin-quiz.netlify.app/",
+        "tech": [
+          "Redux",
+          "React.js",
+          "Styled components",
+          "JSX"
+        ]
+      },
+      {
         "title": "Pomodoro App",
         "created": "April 2020",
         "description": "React Native application with a countdown pomodoro timer. The chosen session length is based on the user interaction. The app is mainly styled with styled components.",
